@@ -1,16 +1,17 @@
-## Cheat Sheet
+# Cheat Sheet
 
-Here are some commands for your reference that you will encounter throughout the sessions
+Here are some commands for your reference that you will encounter throughout the sessions.
 
-## Session 0 - Getting Started
+## Session 0: Getting Started
 
 __Assigning variables__
 
 Remember starting variable names with numbers is not allowed
 
-2var = 0 # invalid variable name :-1:
-
-var2 = 0 # valid variable name   :+1:
+```py
+2var = 0 # invalid variable name
+var2 = 0 # valid variable name
+```
 
 ```py
 var_name = 0           # integer
@@ -38,8 +39,10 @@ __Rounding Numbers__
 ```py
 round(3.4564,2) # will round the number to 2 decimal places
 ```
-## Session 1 - Basics Part A
-__Bools and Comparison operators
+## Session 1: Basics Part A
+
+__Bools and Comparison operators__
+
 ```py
 # comparison operators
 == # equal to
@@ -61,6 +64,23 @@ myAge > 25 and myAge < 20 # False
 not True # False
 not False # True
 ```
+__For loops__
+```py
+for i in range(10): # loops over the set -> 0,1,2,...,9
+	print(i)
+
+```
+
+__While loops__
+
+```py
+i = 0 
+while i < 10:
+	print(i)
+	i = i+1  # alternatively short hand is i += 1
+
+```
+
 __If Statements__
 ```py
 # if statement
@@ -87,39 +107,23 @@ else:
 # you can have as many elif's as you like
 ```
 
-__For loops__
-```py
-for i in range(10): # loops over the set -> 0,1,2,...,9
-	print(i)
+## Session 2: Basics Part B
 
-```
-
-__While loops__
-
-```py
-i = 0 
-while i < 10:
-	print(i)
-	i = i+1  # alternatively short hand is i += 1
-
-```
-
-
-## Session 2 - Basics Part B
 __Defining a function__
 
 ```py
 def add(a, b):
 	return a+b
 ```
-__length of a string or collection__
+
+__Calling a function__
 
 ```py
->>>s = 'hello'
->>>len(s)
-5
+c = add(4, 5)
+# c = 9
 ```
-## Session 3 - Data Structures
+
+## Session 3: Data Structures
 
 __Lists__
 ```py
@@ -172,7 +176,7 @@ for k, v in person.items():
 	print("Key: "+ str(k)+ "\tValue: "+ str(v)
 ```
 
-## Session 4 - Reading/Writing Files
+## Session 4: Reading/Writing Files
 
 Navigation of directories in python can be done using the following commands
 
@@ -226,97 +230,4 @@ __Writing a file__
 f = open('file.txt', 'w')    # read mode
 f.write("To write or not to write\nthat is the question!\n")
 f.close()
-```
-
-## Session Excel
-
-__Keeping Time__  
-Timestamps
-```py
->>> import time
->>> before = time.time()
->>> after = time.time()
->>> difference = after - before
->>> difference
-5.070942401885986
-```
-
-Datetime
-```py
->>> datetime.datetime.now()
-datetime.datetime(2016, 8, 22, 8, 44, 41, 340622)
-```
-Formatting Datetime
-```py
->>> import datetime
->>> date_today = datetime.datetime.now()
->>> date_today
-datetime.datetime(2016, 8, 22, 8, 46, 4, 937283)
->>> date_today.strftime('%d/%m/%Y')
-'22/08/2016'
->>> date_today.strftime('%H:%M:%S')
-'08:46:04'
->>> date_today.strftime('The date is %d/%m/%Y, the time is: %H:%M:%S')
-'The date is 22/08/2016, the time is: 08:46:04'
-```
-
-Timedelta
-```py
->>> import datetime
->>> time_now = datetime.datetime.now()
->>> time_later = time_now + datetime.timedelta(days=10, hours=5, minutes=24, seconds=12)
->>> time_later.strftime('%H:%M:%S %d/%m/%Y')
-'14:16:43 01/09/2016'
-```
-
-## Session SciPy
-
-__Numpy__
-Using vectors
-```py
-import numpy as np
-a = np.array([2,3,4,5,6,7,8])
-b = 2*a+0.5
-# element wise multiplication
-a*b
-# dot product
-a.dot(b)
-```
-Using matrices
-```py
-a = np.arange(5)
-b = np.arange(10).reshape(10,1)
-# element wise manipulation
-b*a
-```
-
-__Matplotlib__
-Use numpy to help plot scientific functions.
-```py
-# damped oscillators
-from math import pi
-
-x = np.linspace(0, 10*pi, 300)
-y1 = np.exp(-0.2*x)*np.sin(x)
-y2 = np.exp(-0.8*x)*np.sin(x)
-
-from matplotlib import pyplot as plt
-
-plt.plot(x, y1, 'r', label = "low damping")
-plt.plot(x, y2, 'b', label = "high damping")
-plt.legend(loc="upper right")
-plt.axis([0, 10*pi, -1, 1])
-plt.grid()
-plt.show()
-```
-
-Plotting histograms
-```py
-mu = 2
-sigma = 0.5
-no_points = 10000
-v = np.random.normal(mu, sigma, no_points)
-# Plot a normalized histogram with 50 bins
-plt.hist(v, bins=50, normed=1)
-plt.show()
 ```
