@@ -46,7 +46,7 @@ my_string = 'I have eaten ' + str(99) + ' burritos.'
 ```
 
 ## A little theory
-It is usefule to distinguish between values and operators that act on values. Which of the following are operators and which are values?
+It is useful to distinguish between values and operators that act on values. Which of the following are operators and which are values?
 
 ```py
 *           # operator
@@ -59,7 +59,7 @@ It is usefule to distinguish between values and operators that act on values. Wh
 ```
 
 ## Computers love arithmetic
-Write a script that prompts the user for two numbers, multiplies the numbers together and prints the result to the console.
+Write a short program that prompts the user for two numbers, multiplies the numbers together and prints the result to the console.
 
 To print something to the screen:
 ```
