@@ -112,7 +112,7 @@ A generic code snippet that prints the key-value pairs from a dictionary:
 
 ```
 >>> animal_frequency={'frog':5, 'antelope':2, 'toucan':3}
->>> for word, frequency in letter_frequency.items():
+>>> for word, frequency in animal_frequency.items():
 		print(word, frequency)
 toucan 3
 antelope 2
