@@ -1,59 +1,87 @@
 # Session 0: Getting Set up (Pre-Work)
 
+As part of the pre work you have installed python and a text editor. You have also watched two videos from automate the boring stuff. In the videos you learned:
+- Expressions and Statements
+- Integers, floats and strings
+- Variables
+
+Aim of this problem set is to gently introduce you to the python interpreter and make sure everything is working.
+
+Go to your start menu and select the program `IDLE (Python 3.6 64-bit)` inside the `Python 3.6` folder. This will load up the interpreter. Use this to explore the problems below.
+
+## Python as a calculator
+To use python as a calculator, simply type in the expression and press enter.
+
+```
+>>> (34/4.5)*3+4
+26.666666666666664
+```
+
+What would the expression `(34/4.5)*(3+4)` evaluate to?
+
+## Division
+What is 17 divided by 3?
+How many times does 3 divide into 17?
+*HINT:* What is the diference between `17/3` and `17//3`?
+
+## Working with strings
+
+A string is a group of characters (Examples of characters: `'a'`, `'b'`, `'X'`, `'$'` or `'5'`). You string the characters together to create a string: `'abX$5'`
+
+You can add strings together.
+```py
+my_string = 'I have eaten ' + '99' + ' burritos.'
+```
+
+You cannot add strings and other types together. Try it in the interpreter.
+```py
+my_string = 'I have eaten ' + 99 + ' burritos.'
+```
+
+How can you fix this?
+
+*ANS:*
+```py
+my_string = 'I have eaten ' + str(99) + ' burritos.'
+```
+
 ## A little theory
-Which of the following are operators, and which are values?
-
-*ANS:*
+It is usefule to distinguish between values and operators that act on values. Which of the following are operators and which are values?
 
 ```py
-*		operator
-'hello'	value
--88.8	value
--		operator
-/		operator
-+		operator
-5		value
-```
-
-Why does this expression cause an error? How can you fix it?
-
-```py
-'I have eaten ' + 99 + ' burritos.'
-```
-
-*ANS:*
-The + operator cannot add an integer (int) to a string (str). you must convert the integer to a string first.
-
-```py
-'I have eaten ' + str(99) + ' burritos.'
+*           # operator
+'hello'     # value
+-88.8       # value
+-           # operator
+/           # operator
++           # operator
+5           # value
 ```
 
 ## Computers love arithmetic
 Write a script that prompts the user for two numbers, multiplies the numbers together and prints the result to the console.
 
+To print something to the screen:
+```
+>>> my_number = 55
+>>> print(my_number)
+55
+```
+
+To prompt the user to enter a number:
 ```py
 # To prompt the user to enter a value
-my_string = input("Message to the user")
+>>> my_string = input("Message to the user")
 ```
 
 *ANS:*
 ```py
-# this will only work if the user enters whole numbers (integers)
-number1 = input("Enter a number: ")
-number2 = input("Enter another number: ")
-number3 = int(number1)*int(number2)
-print(number1 + " times " + number2 + " equals " + str(number3))
+>>> first_number = input("Enter a number: ")
+>>> second_number = input("Enter a second number: ")
+>>> print(float(first_number) * float(second_number))
 ```
 
-## Division
-What is 17 divided by 3?
-How many times does 3 divide into 17?
 
-*ANS:*
-Welcome to integer arithmetic.
 
-17 divided by 3:
-17/3 = 5.666666666667
 
-3 divides into 17:
-17//3 = 5
+
