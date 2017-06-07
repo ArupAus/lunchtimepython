@@ -40,7 +40,7 @@ Example Output
 
 You land your dream job at the bureau of meteorology and the weather is your oyster. Your first job is to check the logs of weather stations around your area and make that the data is being recorded correctly. Using your wealth of programming knowledge you devise a plan to write a python program that will do you work for you while you kick back and daydream what an aurora borealis tornado might look like.
 
-Write a program That:
+Write a program that:
 
 1. reads the recordings from all logs
 2. performs some form of check to see whether the logging data appears correct

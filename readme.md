@@ -21,37 +21,45 @@ The course is intended to be worked through in a group. Please join a group and 
 ### Course Outline
 
 Session 0: Getting Set up (Pre-Work)
+
 - Install Python 
 - Setup a Interactive Development Environment (IDE)
 - The command prompt
 
 Session 1: Basics Part A
+
 - Your first program
 - Flow control 
 - Loops
 
 Session 2: Basics Part B
+
 - Functions
 - Module basics
 
 Session 3: Python Data Types
+
 - Lists and tuples
 - Dictionaries
 
 Session 4: Working with Files
+
 - Read, edit and write text and csv files
 
 Session 5: Group Project
+
 - Get started making group project
 - No course content
 - Class will still run to give you access to tutor for help
 
 Session 6: Good Programming Practices
+
 - Structuring your code
 - Software development processes
 - Version control and developing in teams
 
 Session 7 & 8: Group Project
+
 - Continue working on your group project
 - No course content
 - Class will still run to give you access to tutor for help

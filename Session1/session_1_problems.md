@@ -21,6 +21,7 @@ Sample input/output:
 ## Journey to work
 
 How far do you have to travel to get to work? Ask the user how many kms they travel to work, then give them a suggestion based on their repsonse:
+
 - if the user travels greater than 5km to work, print 'You should take the train.'
 - if the user travels greater than 2km to work, print 'You should cycle.'
 - if the user travels 2km or less to work, print 'Stop being lazy and walk!'
@@ -36,6 +37,7 @@ Here are some example inputs and their expected outputs:
 ## FizzBuzz
 
 Iterate over each number from 1 to 100. For each number (n) in the range, do the following:
+
 - if n is divisible by 3, print 'Fizz' to the console
 - if n is divisible by 5, print 'Buzz' to the console
 - if n is divisible by 3 *and* 5, print 'FizzBuzz' to the console
