@@ -1,6 +1,6 @@
 # Session 1: Basics Part A
 
-## Rounding numbers
+## Warm up exercise: Rounding Numbers
 Write a script that prompts the user for a floating point number and the number of decimal places to round the number, print the rounded number to the console. Python has a built-in [function](https://docs.python.org/3/library/functions.html#round) for doing this.
 
 Sample input/output:
@@ -11,16 +11,27 @@ Sample input/output:
 ```
 
 ## Greetings
-Write a script that prompts the user for their full name, then print a message to the console. A sample is shown below (Google "python string split" if you get stuck).
+Write a script that prompts the user for their full name, then print a greeting to the console. A sample is shown below (Google "python string split" if you get stuck).
+
 Sample input/output:
 ```
 >>> What is your full name: Alex Smith
 >>> Hello Smith, Alex
 ```
 
-## Journey to work
+You can use `input()` to prompt the user in your program. However the marker bot can only assess your answer if it is written as a function as shown below. Wrtie the function and use `input()` to test your function before submitting.
 
-How far do you have to travel to get to work? Ask the user how many kms they travel to work, then give them a suggestion based on their repsonse:
+Submit your function to the MarkerBot as shown below. __Do not change the name of the function - greet.__
+
+```py
+def greet(name):
+    # place your code here
+    return greeting
+```
+
+## Journey to Work
+
+How far do you have to travel to get to work? Write a function that, given how many kms travelled to work, return a suggestion based on the distance travelled:
 
 - if the user travels greater than 5km to work, print 'You should take the train.'
 - if the user travels greater than 2km to work, print 'You should cycle.'
@@ -34,27 +45,76 @@ Here are some example inputs and their expected outputs:
 |4|'You should cycle'|
 |2|'Stop being lazy and walk!'|
 
+Again you can use `input()` to test your program, but submit your answer to the marker bot using a function as shown below. __Do not change the name of the function - suggest_travel.__
+
+```py
+def suggest_travel(distance):
+    # place your code here
+    return suggestion
+```
+
 ## FizzBuzz
 
-Iterate over each number from 1 to 100. For each number (n) in the range, do the following:
+Build a function that, given a positive integer *n*, returns a value based on the following:
 
-- if n is divisible by 3, print 'Fizz' to the console
-- if n is divisible by 5, print 'Buzz' to the console
-- if n is divisible by 3 *and* 5, print 'FizzBuzz' to the console
-- if none of the above apply, just print n to the console
+- if n is divisible by 3, return 'Fizz'
+- if n is divisible by 5, return 'Buzz'
+- if n is divisible by 3 *and* 5, return 'FizzBuzz'
+- if none of the above apply, just return n
 
-## Double char
+To test your function, iterate over every number from 0 to 100 and print the value returned by your function to the screen.
+
+Submit your answer to the marker bot using the function as shown below. __Do not change the name of the function.__
+
+```py
+def fizz_buzz(n):
+    # place your code here
+    return value
+```
+
+## Double Char
 
 Ask the user to input a string. Return this string, with every character (char) repeated twice.
 
 e.g. 'python' should become 'ppyytthhoonn'
 
-Teacher's pet edition: Ask the user for an number (n) as well. Repeat each char in the given string n times.
+Use `input()` to test your program, but submit your answer to the marker bot using a function as shown below. __Do not change the name of the function - double_char.__
+
+```py
+def double_char(word):
+    # place your code here
+    return word_with_repeated_chars
+```
+
+
+**Teacher's pet edition:** Ask the user for an number (n) as well. Repeat each char in the given string n times.
 
 ## Sum
 
 Calculate the sum of:
 
-- every number from 1 to 100
-- every **odd** number from 1 to 100
-- every number from 1 to 100 **divisible by 3**
+- every number from 1 to n
+- every **odd** number from 1 to n
+- every number from 1 to n **divisible by 3**
+
+Where *n* is a number supplied by the user.
+
+Submit your answer to the marker bot using functions as shown below. __Do not change the name of the functions.__
+
+```py
+def sum_numbers(n):
+    # place your code here
+    return _sum_of_numbers
+```
+
+```py
+def sum_odd_numbers(n):
+    # place your code here
+    return _sum_of_numbers
+```
+
+```py
+def sum_div3_numbers(n):
+    # place your code here
+    return _sum_of_numbers
+```

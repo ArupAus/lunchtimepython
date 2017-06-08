@@ -72,15 +72,15 @@ Iterate over each number from 1 to 100. For each number (n) in the range, do the
 
 *ANS:*
 ```py
-for n in range(1, 100):
-	if n%3==0 and n%5==0:
-		print("FizzBuzz")
-	elif n%3==0:
-		print("Fizz")
-	elif n%5==0:
-		print("Buzz")
-	else:
-		print(n)
+def fizz_buzz(n):
+    if n%3==0 and n%5==0:
+        return 'FizzBuzz'
+    elif n%3==0:
+        return 'Fizz'
+    elif n%5==0:
+        return 'Buzz'
+    else:
+        return n
 ```
 
 ## Double char

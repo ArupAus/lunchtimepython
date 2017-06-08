@@ -55,7 +55,7 @@ It is useful to distinguish between values and operators that act on values. Whi
 ```
 
 ## Computers love arithmetic
-Write a short program that prompts the user for two numbers, multiplies the numbers together and prints the result to the console.
+Write a short program that prompts the user for two numbers, multiplies the numbers together and prints the result to the console (do this in the console for now, we will show you how to write scripts in session 1).
 
 To print something to the screen:
 ```
@@ -69,6 +69,8 @@ To prompt the user to enter a number:
 # To prompt the user to enter a value
 >>> my_string = input("Message to the user")
 ```
+
+
 
 
 
