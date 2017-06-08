@@ -18,7 +18,7 @@ Once Slack is installed, you'll be prompted to answer a few questions:
 
 ![](https://github.com/ArupAus/lunchtimepython/blob/2017/Session0/Resources/SlackInstallImages/Step2.png)
 
-3. You should have received a confirmation email - click the link in the email to continue. You'll need to select the team (Click on the `Arup` team with a picture of Ove). You'll be asked to enter a few details about yourself, and pick a username. Enter in your details and continue on to the next step.
+3. You should have received a confirmation email - click the link in the email to continue. You'll need to select the team (Click on the `Arup` team with a picture of Ove Arup). You'll be asked to enter a few details about yourself, and pick a username. Enter in your details and continue on to the next step.
 
 4. On the left you will see a purple navigation pane. Click on `Channels`.
 
