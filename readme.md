@@ -9,7 +9,7 @@ You can access enrollments for the course on [moodle](https://moodle.arup.com/co
 If you are lost, look at these resources (probably in this order):
 1. Our [Cheat Sheet](cheat_sheet.md) 
 2. Search [Stack Overflow](https://stackoverflow.com/) (you will come to love this site)
-3. Ask your fellow Arup course members on the python Slack Channel.
+3. Ask your fellow Arup course members on the python Slack Channel. Use the downloaded application on your computer or click [Here](https://arupconsulting.slack.com/messages/C5H4Q9QRJ/)
 4. A more comprehensive [Cheat Sheet](https://github.com/mattharrison/Tiny-Python-3.6-Notebook/blob/master/python.rst)
 5. The [Python Docs](https://docs.python.org/3/index.html)
 
