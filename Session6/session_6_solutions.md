@@ -245,41 +245,40 @@ We would like to find out a few things from the speech:
 
 1. What words occur more than 10 times?
 2. What were the 20 most frequently used words?
-3. How could you make these results more interesting/relevant? (hint: remove words with < 3 letters)
+3. How could you make these results more interesting/relevant? (for example, by removing words with < 3 letters)
 
 A simple approach (for parts 2 and 3) we would recommend is to use a dictionary to store words and their corresponding frequencies.
 You will need to extract each word from the speech individually, remembering that 'Tax' is not the same as 'tax' (hint: or 'tax,').
 
-How would you extract each word from the following sentence: "Tax, tax and more tax."
+How would you extract each word from the following sentence? "Tax, tax and more tax."
 
-A generic code snippet that prints the key-value pairs from a dictionary:
-
+Important to note here: dicionaries are by their python definition unordered. Lists on the other hand, can be ordered (sorted), for example:
 ```
->>> animal_frequency={'frog':5, 'antelope':2, 'toucan':3}
->>> for word, frequency in letter_frequency.items():
-		print(word, frequency)
-toucan 3
-antelope 2
-frog 5
+>>> myList = [3, 1, 9, 2, 15, 32]
+>>> sortedList = sorted(myList)
+>>> sortedList
+[1, 2, 3, 9, 15, 32]
+
+>>> myList.sort()
+>>> myList
+[1, 2, 3, 9, 15, 32]
+```
+The `sorted(list)` method takes a list and returns a list sorted by value (smallest to largest).
+The `list.sort()` method sorts a list in its place.
+You can reverse the order of either of these functions by including `reverse = True` as an argument, for example `sorted(list, reverse = True)`.
+
+A generic code snippet that returns (key, value) tuple pairs from a dictionary:
+```
+>>> animal_frequency = {'frog':5, 'antelope':2, 'toucan':3}
+>>> letter_frequency.items()
+dict_items([('antelope', 2), ('frog', 5), ('toucan', 3)])
 ```
 
 This is not in any particular order. How would you sort these values by their frequencies?
-
 A sample output is shown below:
 
 ```
-Word: 'the', frequency: 198
-Word: 'and', frequency: 164
-Word: 'will', frequency: 80
-Word: 'for', frequency: 69
-Word: 'tax', frequency: 65
-Word: 'our', frequency: 53
-Word: 'this', frequency: 46
-Word: 'are', frequency: 38
-Word: 'that', frequency: 37
-Word: 'their', frequency: 36
-Word: 'jobs', frequency: 36
-Word: 'new', frequency: 30
+[('the', 198), ('and', 164), ('will', 81), ('for', 69), ('tax', 69), ('our', 53), ('this', 47), ('are', 38), ('that', 37), ('jobs', 37)]
 ```
 __ANS__
 
@@ -315,61 +314,60 @@ Now all the words from the speech have been loaded into `word_freq`. Go ahead - 
 If we want to see which words occur more than 10 times, we can iterate through the dictionary, and only print a word (key) if its frequency (value) is > 10:
 
 ```py
-for word, frequency in word_freq.items():
-	if frequency > 10:
+for word in word_freq.items():
+	if word[1] > 10:
         	print(word)
 ```
-But this doesn't give us anything particularly useful. Instead let's write a function that accepts two arguments (dictionary, number of items to return):
+But this doesn't give us anything particularly useful. Instead let's write a function that accepts a dictionary:
 
 ```py
 
 # previous code here
 
-# function to sort a list of (key, value) tuples based off value
-def sortList(dictionary, top_x_values):
+# function to sort a dictionary, returning a list of tuples sorted by value
+def sortDict(dictionary):
 
-	first_iteration = True
-	unsorted_list = dictionary.items()
-	sorted_list = []
+    # initialise two lists, one for unsorted tuples and one for sorted tuples    
+    unsorted_words = []
+    sorted_words = []
 
-	# if first iteration, put the item in sorted_list (only if > 2 characters!)
-	for item in unsorted_list:
-		if len(item[0]) > 2:
-			if first_iteration:
-				sorted_list.append(item)
-				first_iteration = False
-			else:
-				for i in range(len(sorted_list)):
-					if item[1] > sorted_list[i][1]:
-						sorted_list.insert(i, item)
-						break
-				# test if smaller than last item
-				if item[1] < sorted_list[-1][1]:
-					sorted_list.append(item)
-	for item in sorted_list[:top_x_values]:
-		print("Item: '{0}', frequency: {1}".format(item[0], item[1]))
+    # if word in dictionary is longer than 2 characters, append to unsorted_words
+    for item in dictionary.items():
+        if len(item[0]) > 2:
+            unsorted_words.append(item)
+
+    # sort words in unsorted_words by their frequencies, but remember to add the first word to the list!
+	# we can iterate through the words in unsorted_words, and compare their frequencies to words that
+	# are already in sorted_words, inserting them in the right spot.
+    for item in unsorted_words:
+        if len(sorted_words) == 0:
+            sorted_words.append(item)
+        else:
+            for i in range(len(sorted_words)):
+                if item[1] > sorted_words[i][1]:
+                    sorted_words.insert(i, item)
+                    break
+                if item[1] < sorted_words[-1][1]:
+                    sorted_words.append(item)
+
+	# return a list of tuples
+    return(sorted_words)
+
+# Now we can just run the function with our list, printing only the first 10 values
+print(sortDict(word_freq)[:10])
 ```
-Now we can just run the function with our list!
+
+which should give us...
+
 ```
->>> sortList(word_freq, 20)
-Item: 'the', frequency: 198
-Item: 'and', frequency: 164
-Item: 'will', frequency: 81
-Item: 'for', frequency: 69
-Item: 'tax', frequency: 69
-Item: 'our', frequency: 53
-Item: 'this', frequency: 47
-Item: 'are', frequency: 38
-Item: 'that', frequency: 37
-Item: 'jobs', frequency: 37
-Item: 'their', frequency: 36
-Item: 'new', frequency: 30
-Item: 'plan', frequency: 29
-Item: 'more', frequency: 29
-Item: 'per', frequency: 28
-Item: 'businesses', frequency: 27
-Item: 'they', frequency: 26
-Item: 'with', frequency: 26
-Item: 'from', frequency: 25
-Item: 'than', frequency: 25
+>>> [('the', 198),
+ ('and', 164),
+ ('will', 81),
+ ('for', 69),
+ ('tax', 69),
+ ('our', 53),
+ ('this', 47),
+ ('are', 38),
+ ('that', 37),
+ ('jobs', 37)]
 ```
