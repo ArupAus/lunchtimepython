@@ -83,6 +83,24 @@ def is_multiple(i):
 
 *This is the first problem from [Project Euler](https://projecteuler.net/about). If you like math and enjoy these problem sets you will love project euler.*
 
+**Bonus points:** This is very similar to a problem in session 1. Lets take it a step further. Change the function so that it the numbers we are checking are multiples of become arguments to the function. For example:
+
+```
+>>> sum_multiples(10, [3,5])
+23
+```
+
+This sums all numbers below 10 that are multiples of 3 or 5. We know the answer to this is 23.
+
+What is the sum of all numbers below 1000 that are multiples of 7, 13 or 23?
+
+```
+>>> sum_multiples(1000, [7,13,23])
+```
+
+*[7,13,23] is a python list. This is a sneak peak at next week where will be covering more python datatypes.*
+
+
 ## Prime Numbers
 
 Create a function called `is_prime` that takes a single integer and returns `True` or `False` indicating whether or not the number is prime. A number is prime if its only even divisors are 1 and the number itself. For example, 7 is
