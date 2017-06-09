@@ -87,7 +87,7 @@ def double_char(word):
 ```
 
 
-**Teacher's pet edition:** Ask the user for an number (n) as well. Repeat each char in the given string n times.
+**Bonus points:** Ask the user for an number (n) as well. Repeat each char in the given string n times.
 
 ## Sum
 

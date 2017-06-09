@@ -33,7 +33,7 @@ whatever you feel like. For example, `print_triangle(5)` might print out
 *****
 ```
 
-Hint: Python's ability to 'multiply' a string by an integer may prove useful.
+*HINT:* Python's ability to 'multiply' a string by an integer may prove useful.
 
 Bonus points: make a pyramid instead.
 
