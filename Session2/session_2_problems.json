@@ -1,6 +1,6 @@
 [
     {
-        "name" : "How Long is a Strings",
+        "name" : "How Long is a String?",
         "question" : "Find the longest of two strings.",
         "function_name" : "longer_string",
         "timeout" : 1.0,
