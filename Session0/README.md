@@ -12,21 +12,21 @@ Once Slack is installed, you'll be prompted to answer a few questions:
 
 1. You'll be asked to enter your team's Slack URL. Type `arupconsulting` into the text box and select `Continue`.
 
-![](https://github.com/ArupAus/lunchtimepython/blob/2017/Session0/Resources/SlackInstallImages/Step1.png)
+![](https://raw.githubusercontent.com/ArupAus/lunchtimepython/2017/Session0/Resources/SlackInstallImages/Step1.png)
 
 2. You'll be asked to enter your Arup email. Type your Arup email into the text box and select `Continue`.
 
-![](https://github.com/ArupAus/lunchtimepython/blob/2017/Session0/Resources/SlackInstallImages/Step2.png)
+![](https://raw.githubusercontent.com/ArupAus/lunchtimepython/2017/Session0/Resources/SlackInstallImages/Step2.png)
 
 3. You should have received a confirmation email - click the link in the email to continue. You'll need to select the team (Click on the `Arup` team with a picture of Ove Arup). You'll be asked to enter a few details about yourself, and pick a username. Enter in your details and continue on to the next step.
 
 4. On the left you will see a purple navigation pane. Click on `Channels`.
 
-![](https://github.com/ArupAus/lunchtimepython/blob/2017/Session0/Resources/SlackInstallImages/Step3.png)
+![](https://raw.githubusercontent.com/ArupAus/lunchtimepython/2017/Session0/Resources/SlackInstallImages/Step3.png)
 
 5. Into the search box type `python` and click on the channel `# python`. Make sure you go down to the bottom of the screen and click `Join`.
 
-![](https://github.com/ArupAus/lunchtimepython/blob/2017/Session0/Resources/SlackInstallImages/Step4.png)
+![](https://raw.githubusercontent.com/ArupAus/lunchtimepython/2017/Session0/Resources/SlackInstallImages/Step4.png)
 
 6. You're good to go! This will be your first port of call for anything related to the course materials.
 
@@ -40,7 +40,7 @@ Please watch this [short video](https://youtu.be/1F_OgqRuSdI) to get started. Ig
 
 Arup IT have set up a proxy to manage (and secure) internet traffic. We will need to add  the proxy settings to your system variables in order to use Visual Studio Code and Python.
 
-There is a batch script `set_proxy.cmd` in the [resources](https://github.com/ArupAus/lunchtimepython/tree/2017/Session0/Resources) folder for this session. Copy that file to your desktop and double-click it. If you have admin rights on you computer it should add the proxy settings to your system variables. If you get stuck let us know.
+Here is a [script](https://raw.githubusercontent.com/ArupAus/lunchtimepython/2017/Session0/Resources/set_proxy.cmd),  `set_proxy.cmd` w will set the proxy for you. Right click on the page and save as set_proxy.cmd. Double click to run the script. If you have admin rights on you computer it should add the proxy settings to your system variables. If you get stuck let us know.
 
 ## Step 4: Install Python
 
@@ -53,15 +53,15 @@ We have downloaded python from the python website for you and placed it on the A
 3. Select `Run` if a security warning appears.
 4. Tick the box `Add Python 3.6 to PATH` and then select `Install Now`.
 
-![](https://github.com/ArupAus/lunchtimepython/blob/2017/Session0/Resources/PythonInstallImages/Step1.PNG)
+![](https://raw.githubusercontent.com/ArupAus/lunchtimepython/2017/Session0/Resources/PythonInstallImages/Step1.PNG)
 
 5. If everything goes well a success message will appear. Select `Close`.
 
-![](https://github.com/ArupAus/lunchtimepython/blob/2017/Session0/Resources/PythonInstallImages/Step2.PNG)
+![](https://raw.githubusercontent.com/ArupAus/lunchtimepython/2017/Session0/Resources/PythonInstallImages/Step2.PNG)
 
 6. Go to your start menu and look for `IDLE (Python 3.6 64-bit)`. Once selected the python command prompt should appear.
 
-![](https://github.com/ArupAus/lunchtimepython/blob/2017/Session0/Resources/PythonInstallImages/Step3.PNG)
+![](https://raw.githubusercontent.com/ArupAus/lunchtimepython/2017/Session0/Resources/PythonInstallImages/Step3.PNG)
 
 Please get in touch if you get stuck.
 
