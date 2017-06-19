@@ -62,6 +62,8 @@ Sample input/output:
 [1, 4, 9, 25]
 ```
 
+**Bonus points:** Complete the problem using a [*list comprehension*](http://www.diveintopython3.net/comprehensions.html#listcomprehension).
+
 ## Append Check
 
 Write a function called `my_append` that adds an element to a list provided that element is not already in the list. Remember that lists are passed by reference! The example below shows that the `my_append` function does not actually return anything, it "mutates" (edits) the `animals` list.
@@ -77,7 +79,7 @@ Sample input/output:
 ["cat", "dog", "elephant", "pig", "zebra"]
 ```
 
-*NOTE:* Try not to mutate lists with functions in the future. We are just trying to show you how lists work with functions.
+*NOTE:* Try not to mutate (edit) lists with functions in the future. We are just trying to show you how lists work with functions.
 
 ## Pretty Print
 
@@ -137,4 +139,4 @@ items = [
 ]
 ```
 
-*BONUS:* What is the best selection of items to maximise the number of items while keeping the weight below 7kg (i.e. make it an optimisation problem)?
+**Bonus points:** What is the best selection of items to maximise the number of items while keeping the weight below 7kg (i.e. make it an optimisation problem)?

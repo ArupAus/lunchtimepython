@@ -6,8 +6,10 @@ You can access enrollments for the course on [moodle](https://moodle.arup.com/co
 
 ## Useful Resources
 
+Most of the material can be found on [Automate the Boring Stuff](https://automatetheboringstuff.com/). This is a good place to go if you want to revisit what is taught in each section. The author also provides video tutorial on youtube that follow this course closely.
+
 If you are lost, look at these resources (probably in this order):
-1. Our [Cheat Sheet](cheat_sheet.md) 
+1. Our Cheat Sheet (see navbar) 
 2. Search [Stack Overflow](https://stackoverflow.com/) (you will come to love this site)
 3. Ask your fellow Arup course members on the python Slack Channel. Use the downloaded application on your computer or click [Here](https://arupconsulting.slack.com/messages/C5H4Q9QRJ/)
 4. A more comprehensive [Cheat Sheet](https://github.com/mattharrison/Tiny-Python-3.6-Notebook/blob/master/python.rst)
@@ -80,7 +82,7 @@ This course is for everyone! Absolutely no background required. However, think o
 
 ## Getting Started
 
-Head over to the session 0 folder. It contains installation instructions, pre-reading and a warm-up problem set. You MUST complete this before attending the first session.
+Before the first session, follow through the setup page (see navbar above) and complete the problems in Session 0. It contains installation instructions, pre-reading and a warm-up problem set. You **MUST** complete this before attending the first session.
 
 ## Where to get help
 

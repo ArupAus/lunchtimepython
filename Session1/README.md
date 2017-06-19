@@ -2,6 +2,7 @@
 
 Topics covered:
 - Your first program (print, input and type conversion)
+- Introduce simple functions
 - Flow control 
 - Loops
 

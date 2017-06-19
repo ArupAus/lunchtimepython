@@ -40,7 +40,9 @@ Please watch this [short video](https://youtu.be/1F_OgqRuSdI) to get started. Ig
 
 Arup IT have set up a proxy to manage (and secure) internet traffic. We will need to add  the proxy settings to your system variables in order to use Visual Studio Code and Python.
 
-Here is a [script](https://raw.githubusercontent.com/ArupAus/lunchtimepython/2017/Session0/Resources/set_proxy.cmd),  `set_proxy.cmd` w will set the proxy for you. Right click on the page and save as set_proxy.cmd. Double click to run the script. If you have admin rights on you computer it should add the proxy settings to your system variables. If you get stuck let us know.
+Here is a [script](https://github.com/ArupAus/lunchtimepython/blob/2017/Session0/Resources/set_proxy.cmd),  `set_proxy.cmd` will set the proxy for you. Right click on the page and save as set_proxy.cmd. Double click to run the script. If you have admin rights on you computer it should add the proxy settings to your system variables.
+
+**NOTE:** *Setting this proxy will cause all sort of problems when trying to work from home. You will have to work on the vpn or unset the proxy settings if you want to work from home. If this confuses you, skip this step and we will do it in Session 1.*
 
 ## Step 4: Install Python
 
@@ -71,11 +73,11 @@ In the videos you have been watching from Automate the Boring Stuff, Al uses a t
 
 1. Copy the `VSCodeSetup-1.11.2.exe` file from the Arup Programs folder (P:\Program Files\Visual Studio Code) to your desktop.
 2. Double click the file and follow the instructions in this [video](https://youtu.be/8tkuu0Rugg4?t=1m34s).
-3. Install python extension for Visual Studio Code. Instructions can be found [here](https://code.visualstudio.com/docs/languages/python).
+3. Install python extension for Visual Studio Code. Instructions can be found [here](https://code.visualstudio.com/docs/languages/python). (skip this step if you have not set up the proxy in Step 3.)
 
 ## Step 6: Your First Problem Set
 
-In each session we will provide a README.md (this file), a problem set and solutions. As part of this pre work, watch the [next video](https://youtu.be/7qHMXu99d88) from automate the boring stuff and try to solve problems in the file __session_0_problems.md__.
+In each session we will provide a README.md (this file), a problem set and solutions. As part of this pre work, watch the [next video](https://youtu.be/7qHMXu99d88) from automate the boring stuff and try to solve problems in **Session 0**.
 
 Use slack to ask questions if you get stuck.
 

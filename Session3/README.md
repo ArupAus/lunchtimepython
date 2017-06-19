@@ -10,6 +10,8 @@ The primitive types are:
 7. Sets are unordered bags of values. 
 8. Dictionaries are unordered bags of key-value pairs. 
 
-We covered Booleans, Numbers and Strings sessions 0 and 1. This session we will cover Lists, Tuples and Dictionaries.
+We covered Booleans, Numbers and Strings sessions 0 and 1.
+
+This session we will cover Lists, Tuples and Dictionaries.
 
 [Dive in Python 3](http://www.diveintopython3.net/native-datatypes.html) is a useful resource on these.
