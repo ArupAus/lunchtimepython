@@ -1,0 +1,50 @@
+[
+    {
+        "name" : "How long is a list?",
+        "question" : "Find the length of a given list.",
+        "function_name" : "listLength",
+        "timeout" : 1.0,
+        "args" : [[1,2,3,4,5], ["Bee","Hat"], [1,"a",3,"b"]],
+        "answers" : [[5], [2], [4]]
+    },
+    {
+        "name" : "What is the sum of all items in a list?",
+        "question" : "Find the sum of all items in a list.",
+        "function_name" : "listSum",
+        "timeout" : 1.0,
+        "args" : [[1,2,3,4,5], [5,10,15]],
+        "answers" : [[15], [30]]
+    },
+    {
+        "name" : "What is the maximum of all items in a list?",
+        "question" : "Find the max of all items in a list.",
+        "function_name" : "listMax",
+        "timeout" : 1.0,
+        "args" : [[1,2,3,4,5], [5,10,15,2]],
+        "answers" : [[5], [15]]
+    },
+    {
+        "name" : "What is the minimum of all items in a list?",
+        "question" : "Find the minimum of all items in a list.",
+        "function_name" : "listMin",
+        "timeout" : 1.0,
+        "args" : [[1,2,3,4,5], [5,10,15,2]],
+        "answers" : [[1], [2]]
+    },
+    {
+        "name" : "What is the mean of all items in a list?",
+        "question" : "Find the mean of all items in a list.",
+        "function_name" : "listMean",
+        "timeout" : 1.0,
+        "args" : [[1,2,3,4,5,6], [5,10,15,2]],
+        "answers" : [[3.5], [8]]
+    },
+    {
+        "name" : "What is the square of all items in a list?",
+        "question" : "Find the square of all items in a list.",
+        "function_name" : "square_map",
+        "timeout" : 1.0,
+        "args" : [[['cat', 'dog', 'elephant', 'pig'],'dog']], [['car', 'boat', 'train', 'tram'],'plane']],
+        "answers" : [['cat', 'dog', 'elephant', 'pig'], ['car', 'boat', 'train', 'tram','plane']]
+    }
+]

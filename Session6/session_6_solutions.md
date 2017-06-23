@@ -360,14 +360,5 @@ print(sortDict(word_freq)[:10])
 which should give us...
 
 ```
->>> [('the', 198),
- ('and', 164),
- ('will', 81),
- ('for', 69),
- ('tax', 69),
- ('our', 53),
- ('this', 47),
- ('are', 38),
- ('that', 37),
- ('jobs', 37)]
+>>> [('the', 198), ('and', 164), ('will', 81), ('for', 69), ('tax', 69), ('our', 53), ('this', 47), ('are', 38), ('that', 37), ('jobs', 37)]
 ```
