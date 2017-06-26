@@ -1,0 +1,10 @@
+[
+    {
+        "name" : "Hello World - warmup submission",
+        "question" : "no programming course should deprive you of a hello world",
+        "function_name" : "hello_world",
+        "timeout" : 1.0,
+        "args" : [[]],
+        "answers" : [["hello world!"]]
+    }
+]

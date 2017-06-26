@@ -8,7 +8,7 @@ These are thought questions - there are probably several right answers.
 - How can using a function make your code easier to change?
 - How can using a function make your code more readable?
 
-## How Long is a Strings
+## How Long is a String
 
 Create a function called `longer_string` that takes two strings and returns the longer one. For example,
 

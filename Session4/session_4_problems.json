@@ -1,0 +1,10 @@
+[
+    {
+        "name" : "Outstanding Debts",
+        "question" : "Sort list ",
+        "function_name" : "list_debts",
+        "timeout" : 1.0,
+        "args" : [["debts_0.csv"], ["debts_1.csv"], ["debts_2.csv"]],
+        "answers" : [[5], [2], [4]]
+    }
+]

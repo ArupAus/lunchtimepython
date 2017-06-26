@@ -44,7 +44,7 @@
         "question" : "Find the square of all items in a list.",
         "function_name" : "square_map",
         "timeout" : 1.0,
-        "args" : [[["cat", "dog", "elephant", "pig"],"dog"], [["car", "boat", "train", "tram"],"plane"]],
+        "args" : [[], [["car", "boat", "train", "tram"],"plane"]],
         "answers" : [["cat", "dog", "elephant", "pig"], ["car", "boat", "train", "tram","plane"]]
     }
 ]

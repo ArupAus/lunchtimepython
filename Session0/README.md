@@ -73,7 +73,7 @@ In the videos you have been watching from Automate the Boring Stuff, Al uses a t
 
 1. Copy the `VSCodeSetup-1.11.2.exe` file from the Arup Programs folder (P:\Program Files\Visual Studio Code) to your desktop.
 2. Double click the file and follow the instructions in this [video](https://youtu.be/8tkuu0Rugg4?t=1m34s).
-3. Install python extension for Visual Studio Code. Instructions can be found [here](https://code.visualstudio.com/docs/languages/python). (skip this step if you have not set up the proxy in Step 3.)
+3. Install python extension for Visual Studio Code. Instructions can be found [here](https://marketplace.visualstudio.com/items?itemName=donjayamanne.python). (skip this step if you have not set up the proxy in Step 3.)
 
 ## Step 6: Your First Problem Set
 
