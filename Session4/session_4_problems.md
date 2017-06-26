@@ -59,7 +59,7 @@ Example Output
 > Line 1 word count: 4
 ```
 ### longest_line
-Write a function that will return a dict of line no. and number of words in the longest line in a given file. 
+Write a function that will return a dict of line no. and number of words in the longest line in a given file. Line numbers start at 0 for this problem.
 This time you will be using the `with open() as ...:` statement instead of just open. It will behave in a similar manner but will automatically close the file after it reaches the end of the indentation. 
 
 Supply your text file to the funciton via the `filepath` argument and the character you wish to split lines by with the `split_char` arg. 
@@ -76,7 +76,8 @@ def longest_line(file_path, split_char):
 
 ### longest_line_string
 
-__Do not change the function name from__ `longest_line_string`. In the event of a tie for total number of words in a line. return the line with the longest string in the line
+In the event of a tie for total number of words in a line return the line with the longest string in the line. Line numbers start at 0 for this problem.
+__Do not change the function name from__ `longest_line_string`. 
 
 ```py
 def longest_line_string(file_path, split_char):
@@ -106,7 +107,7 @@ Below is some python code that you can copy and paste into your script to read t
 
 ```py
 import csv
-with open("debts.csv") as csvfile:
+with open("debts.csv", 'rU') as csvfile:
   csvData = csv.DictReader(csvfile)
   for row in csvData:
     job_number = row['Job Number']
