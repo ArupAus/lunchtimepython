@@ -38,7 +38,7 @@ How far do you have to travel to get to work? Write a function that, given how m
 - if the user travels 2km or less to work, print 'Stop being lazy and walk!'
 
 Here are some example inputs and their expected outputs:
-
+{: .table table-hover }
 |Input|Output|
 |-----|------|
 |6|'You should take the train.'|

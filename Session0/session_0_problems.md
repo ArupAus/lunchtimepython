@@ -91,7 +91,7 @@ def hello_world():
 ```
 
 Copy code above into a new file in VS Code __Do not change the name of the function from__ `hello_world`
-![](https://raw.githubusercontent.com/ArupAus/lunchtimepython/2017/Session0/Resources/SubmittingSolutions/00Paste.PNG)
+![](https://raw.githubusercontent.com/ArupAus/lunchtimepython/2017/Session0/Resources/SubmittingSolutions/00paste.PNG)
 
 Save your file as  `.py`  in a folder somewhere appropriate. In this case I have put it in a folder names lunchtime on my desktop
 ![](https://raw.githubusercontent.com/ArupAus/lunchtimepython/2017/Session0/Resources/SubmittingSolutions/01saveas.PNG)
@@ -102,7 +102,7 @@ VS Code has an explorer useful for managing your files and will start a terminal
 ![](https://raw.githubusercontent.com/ArupAus/lunchtimepython/2017/Session0/Resources/SubmittingSolutions/03zOpenFolder.PNG)
 
 Now we will open a terminal to run your hello world program. you can shortcut by pressing ``crtl + ` `` or going to ` view > Integrated Terminal `
-![](https://raw.githubusercontent.com/ArupAus/lunchtimepython/2017/Session0/Resources/SubmittingSolutions/04openTerminal.PNG)
+![](https://raw.githubusercontent.com/ArupAus/lunchtimepython/2017/Session0/Resources/SubmittingSolutions/04openTerminal.png)
 On windows a powershell console will show up. If on a mac bash, either way you should be able to run your program by typing `python hello_world.py`. This is telling your computer to get python to run your code. If the terminal complains that it doesn't have a command `python` your environment variables haven't been set yet. Please go back to the Get Set up page and make sure when you install python you click add python to PATH in `Step 4: Install Python` or ask a tutor in the first session to help you.
 
 If python cant find your file you are not in the correct directory. You can type `ls` to list all files and directories in your current location and navigate by typing `cd ..` to go up a directory, `cd directory_name` to go into a directory. 
@@ -112,6 +112,6 @@ Getting comfortable with the terminal is an important skill when programming, do
 
 Add the following lines to you code to get it to print the output of your `hello_world()` function. Note we are using the built in function `print()` which comes as part of the python standard library in order to see the value the `hello_world()` function returns.
 
-![](https://raw.githubusercontent.com/ArupAus/lunchtimepython/2017/Session0/Resources/SubmittingSolutions/06print.PNG)
+![](https://raw.githubusercontent.com/ArupAus/lunchtimepython/2017/Session0/Resources/SubmittingSolutions/06print.png)
 
 
