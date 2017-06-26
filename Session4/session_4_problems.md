@@ -125,7 +125,7 @@ def biggest_debt(file_path):
 ```
 ### total_debt
 
-Based on the example above write a function that calculates the total debt for a given file
+Based on the example above write a function that calculates the total debt for a given file. Return a single number that equal the total debt from a given csv file
 __Do not change the function name from__ `total_debt`
 ```py
 def total_debt(file_path):
@@ -135,7 +135,7 @@ def total_debt(file_path):
 
 ### sorted_debt
 
-Based on the example above write a function that returns a list of dicts `(job_number, debt)` sorted in descending order. An example output might look like this  `[(260405, 33209.61), (233405, 22209.16), (260565, 339.10)]`
+Based on the example above write a function that returns a list of dicts `{'job_number': 123456, 'debt': 323}` sorted in descending order. An example output might look like this  `[{'job_number': 260405, 'debt': 33209.61), {'job_number': 233405, 22209.16}, {'job_number': 260565, 'debt': 339.10}]`
 __Do not change the function name from__ `sorted_debt`
 
 ```py

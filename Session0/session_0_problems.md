@@ -79,14 +79,14 @@ No programming course should deprive you of a hello world so sticking with tradi
 This excerise is to show you how to submit solutions to this website for marking. We this example will be using Microsoft VS code which is cross platform for people with mac or *nix machines.
 
 
-below is what we call a function, similar to how you might use the sum function in excel `=SUM(A1:A3)` which accepts a range as the input argument. However in this case we are writing the implementation for a function called hello_world which accepts no arguments and returns `Hello World!` when called. If this doesn't make sense don't worry we will cover this in more depth in future sessions.
+below is what we call a function, similar to how you might use the sum function in excel `=SUM(A1:A3)` which accepts a range as the input argument. However in this case we are writing the implementation for a function called hello_world which accepts no arguments and returns `hello world!` when called. If this doesn't make sense don't worry we will cover this in more depth in future sessions.
 
 What is import is when you submit you solutions to this website they will be in the form of a function. Be careful to submit files with the function name as specified in the question otherwise it will not mark your work.
 
 ```py
 
 def hello_world():
-    return 'Hello World!'
+    return 'hello world!'
 
 ```
 
@@ -115,3 +115,15 @@ Add the following lines to you code to get it to print the output of your `hello
 ![](https://raw.githubusercontent.com/ArupAus/lunchtimepython/2017/Session0/Resources/SubmittingSolutions/06print.png)
 
 
+Now if you go over to the submission panel on the left of screen you will see a submit panel appear under Session 0, you can drag and drop you file on the choose file or select with explorer by hitting choose. Once you file is selected hit submit 
+
+![](https://raw.githubusercontent.com/ArupAus/lunchtimepython/2017/Session0/Resources/SubmittingSolutions/07__submit.PNG)
+
+After that you will see a modal appear and you result will update in the submission panel
+![](https://raw.githubusercontent.com/ArupAus/lunchtimepython/2017/Session0/Resources/SubmittingSolutions/07_modal.png)
+![](https://raw.githubusercontent.com/ArupAus/lunchtimepython/2017/Session0/Resources/SubmittingSolutions/07mark.PNG)
+
+And thats it, well done submitting you customary hello world program.
+
+## Congratulations
+ You have now successfully submitted the pre - work! Rest up for now we will see you in session 1!
