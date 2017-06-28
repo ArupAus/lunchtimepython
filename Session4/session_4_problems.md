@@ -112,7 +112,7 @@ with open("debts.csv", 'rU') as csvfile:
   for row in csvData:
     job_number = row['Job Number']
     debt = row['Debt']
-    print(job_number, debt)
+    print(job_number, round(debt, 2))
 ```
 ### biggest_debt
 
@@ -122,7 +122,7 @@ __Do not change the function name from__ `biggest_debt`. In the event of a tie f
 ```py
 def biggest_debt(file_path):
     # your code here
-    return {'job_number': job_number, 'debt': debt}
+    return {u'job_number': job_number, u'debt': round(debt, 2)}
 ```
 ### total_debt
 
@@ -131,16 +131,20 @@ __Do not change the function name from__ `total_debt`
 ```py
 def total_debt(file_path):
     # your code here
-    return debt
+    return round(debt, 2)
 ```
 
 ### sorted_debt
 
-Based on the example above write a function that returns a list of dicts `{'job_number': 123456, 'debt': 323}` sorted in descending order. An example output might look like this  `[{'job_number': 260405, 'debt': 33209.61), {'job_number': 233405, 22209.16}, {'job_number': 260565, 'debt': 339.10}]`
+Based on the example above write a function that returns a list of dicts `{u'job_number': 123456, u'debt': 323}` sorted in descending order. An example output might look like this  `[{u'job_number': 260405, 'debt': 33209.61), {u'job_number': 233405, 22209.16}, {u'job_number': 260565, u'debt': 339.10}]`
 __Do not change the function name from__ `sorted_debt`
 
 ```py
 def sorted_debts(file_path):
     # your code here
-    return debt
+    # do not round your debts in this exercise!
+    debts = []
+
+
+    return debts
 ```

@@ -7,16 +7,16 @@
         "args" : [["lines_0.txt", " "], ["lines_1.txt", " "], ["lines_2.txt", " "]],
         "answers" : [[{"line_number": 3, "num_words": 4}],
                      [{"line_number": 7, "num_words": 7}],
-                     [{"line_number": 23, "num_words": 8}]]
+                     [{"line_number": 25, "num_words": 8}]]
     },
 {
         "name" : "Longest Line String",
         "question" : "Longest Line String",
         "function_name" : "longest_line_string",
         "timeout" : 2.5,
-        "args" : [["lines_0.txt", " "], ["lines_1.txt", " "], ["lines_2.txt", " "]],
+        "args" : [["lines_2.txt", " "], ["lines_0.txt", " "], ["lines_1.txt", " "]],
         "answers" : [[{"line_number": 3, "num_words": 4, "longest_string_length": 23}],
-                     [{"line_number": 7, "num_words": 7, "longest_string_length":27}],
+                     [{"line_number": 7, "num_words": 7, "longest_string_length": 27}],
                      [{"line_number": 23, "num_words": 8, "longest_string_length":43}]]
     },
 
@@ -26,9 +26,9 @@
         "function_name" : "biggest_debt",
         "timeout" : 2.5,
         "args" : [["debts_0.csv"], ["debts_1.csv"], ["debts_2.csv"]],
-        "answers" : [[{"job_number": 218445, "debt": 261453.0}], 
+        "answers" : [[{"job_number": 218445, "debt": 261453.00}], 
                      [{"job_number": 209356,"debt": 86833.14}],
-                     [{"job_number": 244444,"debt": 1}]
+                     [{"job_number": 244444,"debt": 1.00}]
                     ]
     },
 {
@@ -45,7 +45,7 @@
         "function_name" : "sorted_debt",
         "timeout" : 2.5,
         "args" : [["debts_0.csv"], ["debts_1.csv"], ["debts_2.csv"]],
-        "answers" : [[
+        "answers" : [[[
                         {"debt": 261453.0, "job_number": 299684}, 
                         {"debt": 230816.0, "job_number": 264346}, 
                         {"debt": 204823.0, "job_number": 299371}, 
@@ -84,8 +84,8 @@
                         {"debt": 13343.31, "job_number": 273095}, 
                         {"debt": 10975.54, "job_number": 254928}, 
                         {"debt": 6646.16, "job_number": 270338}, 
-                        {"debt": 3617.68, "job_number": 203534}], 
-                    [
+                        {"debt": 3617.68, "job_number": 203534}]], 
+                    [[
                         {"debt": 86833.14, "job_number": 202584}, 
                         {"debt": 68575.92, "job_number": 212473}, 
                         {"debt": 60453.19, "job_number": 262318}, 
@@ -101,11 +101,11 @@
                         {"debt": -79837.0, "job_number": 209356}, 
                         {"debt": -79837.0, "job_number": 297665}, 
                         {"debt": -79837.0, "job_number": 256059}, 
-                        {"debt": -79837.0, "job_number": 260849}],
-                    [
+                        {"debt": -79837.0, "job_number": 260849}]],
+                    [[
                         {"debt": 1.0, "job_number": 244444}, 
                         {"debt": 0.0, "job_number": 274236}, 
-                        {"debt": -33209.61, "job_number": 260405}]
+                        {"debt": -33209.61, "job_number": 260405}]]
                     ]
     }
 ]
