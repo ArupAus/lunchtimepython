@@ -1,0 +1,53 @@
+[
+    {
+        "name" : "Session Attendance",
+        "question" : "We would like you to investigate attendance in the python course.",
+        "function_name" : "session_attendance",
+        "timeout" : 1.0,
+        "args" : [[]],
+        "answers" : [{
+            "by_attendee" : {
+                "0":0,
+                "1":0,
+                "2":1,
+                "3":1,
+                "4":7,
+                "5":11,
+                "6":8,
+                "7":5,
+                "8":13,
+                "9":4
+            },
+            "by_session" : {
+                "0":31,
+                "1":38,
+                "2":33,
+                "3":32,
+                "4":34,
+                "5":33,
+                "6":39,
+                "7":37,
+                "8":34
+            }
+        }]
+    },
+    {
+        "name" : "Common Words - Part 1",
+        "question" : "Find the most common words in the 2016 budget speech. List all the words that occur more than 10 times.",
+        "function_name" : "common_words",
+        "timeout" : 1.0,
+        "args" : [[]],
+        "answers" : [["australian", "australians", "billion", "budget", "businesses", "cent", "contributions", "economic", "economy", "four", "government", "growth", "including", "income", "job", "jobs", "measures", "million", "new", "people", "per", "plan", "rate", "superannuation", "support", "tax", "will", "year", "young"]]
+    },
+    {
+        "name" : "Common Words - Part 2",
+        "question" : "Find the most common words in the 2016 budget speech. List the 20 most frequently used words in order (most common to least common).",
+        "function_name" : "most_used_words",
+        "timeout" : 1.0,
+        "args" : [[]],
+        "answers" : [["will", "tax", "jobs", "new", "per", "plan", "cent", "businesses", "superannuation", "million", "budget", "economic", "australians", "people", "billion", "young", "rate", "income", "economy", "growth"]]
+    }
+]
+
+
+
