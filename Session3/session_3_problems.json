@@ -4,7 +4,7 @@
         "question" : "Find the length of a given list.",
         "function_name" : "list_length",
         "timeout" : 1.0,
-        "args" : [[1,2,3,4,5], ["Bee","Hat"], [1,"a",3,"b"]],
+        "args" : [[[1,2,3,4,5]], [["Bee","Hat"]], [[1,"a",3,"b"]]],
         "answers" : [[5], [2], [4]]
     },
     {
@@ -12,7 +12,7 @@
         "question" : "Find the sum of all items in a list.",
         "function_name" : "list_sum",
         "timeout" : 1.0,
-        "args" : [[1,2,3,4,5], [5,10,15]],
+        "args" : [[[1,2,3,4,5]], [[5,10,15]]],
         "answers" : [[15], [30]]
     },
     {
@@ -20,7 +20,7 @@
         "question" : "Find the max of all items in a list.",
         "function_name" : "list_max",
         "timeout" : 1.0,
-        "args" : [[1,2,3,4,5], [5,10,15,2]],
+        "args" : [[[1,2,3,4,5]], [[5,10,15,2]]],
         "answers" : [[5], [15]]
     },
     {
@@ -28,7 +28,7 @@
         "question" : "Find the minimum of all items in a list.",
         "function_name" : "list_min",
         "timeout" : 1.0,
-        "args" : [[1,2,3,4,5], [5,10,15,2]],
+        "args" : [[[1,2,3,4,5]], [[5,10,15,2]]],
         "answers" : [[1], [2]]
     },
     {
@@ -36,7 +36,7 @@
         "question" : "Find the mean of all items in a list.",
         "function_name" : "list_mean",
         "timeout" : 1.0,
-        "args" : [[1,2,3,4,5,6], [5,10,15,2]],
+        "args" : [[[1,2,3,4,5,6]], [[5,10,15,2]]],
         "answers" : [[3.5], [8]]
     },
     {
@@ -44,7 +44,7 @@
         "question" : "Find the square of all items in a list.",
         "function_name" : "square_map",
         "timeout" : 1.0,
-        "args" : [[1,2,3,4,5,6], [5,10,15,-2]],
+        "args" : [[[1,2,3,4,5,6]], [[5,10,15,-2]]],
         "answers" : [[1,4,9,16,25,36], [25,100,225,4]]
     },
     {
@@ -74,6 +74,11 @@
                     {"name": "flint", "weight": 1.075},
                     {"name": "magnifying glass", "weight": 0.450}
                 ]],
-        "answers" : [[{"items": ["tooth brush", "sandwich", "iPod", "tomahawk", "bon soy", "sling shot", "book on python", "tissues", "first aid kit"], "weight": 6.66}]]
+        "answers" : [[{"items": ["tooth brush",
+                                 "sandwich",
+                                 "iPod",
+                                 "tomahawk",
+                                 "bon soy",
+                                 "sling shot", "book on python", "tissues", "first aid kit"], "weight": 6.66}]]
     }
 ]
