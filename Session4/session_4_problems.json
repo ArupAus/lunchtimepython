@@ -14,7 +14,7 @@
         "question" : "Longest Line String",
         "function_name" : "longest_line_string",
         "timeout" : 2.5,
-        "args" : [["lines_2.txt", " "], ["lines_0.txt", " "], ["lines_1.txt", " "]],
+        "args" : [["lines_0.txt", " "], ["lines_0.txt", " "], ["lines_2.txt", " "]],
         "answers" : [[{"line_number": 3, "num_words": 4, "longest_string_length": 23}],
                      [{"line_number": 7, "num_words": 7, "longest_string_length": 27}],
                      [{"line_number": 23, "num_words": 8, "longest_string_length":43}]]
@@ -26,8 +26,8 @@
         "function_name" : "biggest_debt",
         "timeout" : 2.5,
         "args" : [["debts_0.csv"], ["debts_1.csv"], ["debts_2.csv"]],
-        "answers" : [[{"job_number": 218445, "debt": 261453.00}], 
-                     [{"job_number": 209356,"debt": 86833.14}],
+        "answers" : [[{"job_number": 299684, "debt": 261453.00}], 
+                     [{"job_number": 202584,"debt": 86833.14}],
                      [{"job_number": 244444,"debt": 1.00}]
                     ]
     },
