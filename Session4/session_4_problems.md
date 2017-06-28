@@ -71,8 +71,10 @@ def longest_line(file_path, split_char):
     with open(file_path, 'r') as input_file:
         # your code here
 
-    return {'line_number': line_number, 'num_words': num_words}
+    return {u'line_number': line_number, u'num_words': num_words}
 ```
+__* leave the u in front of the keys in the dictionary you return__
+
 
 ### longest_line_string
 
@@ -84,9 +86,9 @@ def longest_line_string(file_path, split_char):
     with open(file_path, 'r') as input_file:
         # your code here
 
-    return {'line_number': line_number, 'num_words': num_words, 'longest_string_length':longest_string_length}
+    return {u'line_number': line_number, u'num_words': num_words, u'longest_string_length':longest_string_length}
 ```
-
+__* leave the u in front of the keys in the dictionary you return__
 
 ## Chasing outstanding debts
 
@@ -124,6 +126,8 @@ def biggest_debt(file_path):
     # your code here
     return {u'job_number': job_number, u'debt': round(debt, 2)}
 ```
+__* leave the u in front of the keys in the dictionary you return__
+
 ### total_debt
 
 Based on the example above write a function that calculates the total debt for a given file. Return a single number that equal the total debt from a given csv file
@@ -144,7 +148,7 @@ def sorted_debts(file_path):
     # your code here
     # do not round your debts in this exercise!
     debts = []
-
+    #leave a 'u' in front of the keys in the dictionary you return
 
     return debts
 ```
