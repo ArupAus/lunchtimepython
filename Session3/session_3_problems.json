@@ -74,6 +74,6 @@
                     {"name": "flint", "weight": 1.075},
                     {"name": "magnifying glass", "weight": 0.450}
                 ]],
-        "answers" : [["{\nitems: ['tooth brush', 'sandwich', 'iPod', 'tomahawk', 'bon soy', 'sling shot', 'book on python', 'tissues', 'first aid kit']\nweight: 6.66\n}"]]
+        "answers" : [[{"items": ['tooth brush', 'sandwich', 'iPod', 'tomahawk', 'bon soy', 'sling shot', 'book on python', 'tissues', 'first aid kit'], "weight": 6.66}]]
     },
 ]
