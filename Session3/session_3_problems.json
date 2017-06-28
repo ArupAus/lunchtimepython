@@ -2,7 +2,7 @@
     {
         "name" : "How long is a list?",
         "question" : "Find the length of a given list.",
-        "function_name" : "listLength",
+        "function_name" : "list_length",
         "timeout" : 1.0,
         "args" : [[1,2,3,4,5], ["Bee","Hat"], [1,"a",3,"b"]],
         "answers" : [[5], [2], [4]]
@@ -10,7 +10,7 @@
     {
         "name" : "What is the sum of all items in a list?",
         "question" : "Find the sum of all items in a list.",
-        "function_name" : "listSum",
+        "function_name" : "list_sum",
         "timeout" : 1.0,
         "args" : [[1,2,3,4,5], [5,10,15]],
         "answers" : [[15], [30]]
@@ -18,7 +18,7 @@
     {
         "name" : "What is the maximum of all items in a list?",
         "question" : "Find the max of all items in a list.",
-        "function_name" : "listMax",
+        "function_name" : "list_max",
         "timeout" : 1.0,
         "args" : [[1,2,3,4,5], [5,10,15,2]],
         "answers" : [[5], [15]]
@@ -26,7 +26,7 @@
     {
         "name" : "What is the minimum of all items in a list?",
         "question" : "Find the minimum of all items in a list.",
-        "function_name" : "listMin",
+        "function_name" : "list_min",
         "timeout" : 1.0,
         "args" : [[1,2,3,4,5], [5,10,15,2]],
         "answers" : [[1], [2]]
@@ -34,7 +34,7 @@
     {
         "name" : "What is the mean of all items in a list?",
         "question" : "Find the mean of all items in a list.",
-        "function_name" : "listMean",
+        "function_name" : "list_mean",
         "timeout" : 1.0,
         "args" : [[1,2,3,4,5,6], [5,10,15,2]],
         "answers" : [[3.5], [8]]
@@ -44,7 +44,46 @@
         "question" : "Find the square of all items in a list.",
         "function_name" : "square_map",
         "timeout" : 1.0,
-        "args" : [[], [["car", "boat", "train", "tram"],"plane"]],
+        "args" : [[1,2,3,4,5,6], [5,10,15,-2]],
+        "answers" : [[1,4,9,16,25,36], [25,100,225,4]]
+    },
+    {
+        "name" : "How can I add another entry to the end of a list?",
+        "question" : "How to append to a list",
+        "function_name" : "my_append",
+        "timeout" : 1.0,
+        "args" : [[["cat", "dog", "elephant", "pig"],"dog"], [["car", "boat", "train", "tram"],"plane"]],
         "answers" : [["cat", "dog", "elephant", "pig"], ["car", "boat", "train", "tram","plane"]]
-    }
+    },
+     {
+        "name" : "How do I make results more readable?",
+        "question" : "How do I make results more readable?",
+        "function_name" : "pretty_print",
+        "timeout" : 1.0,
+        "args" : [[{"name":"Alex", "age":27, "height":158}]],
+        "answers" : [["{\n\tHeight: 158\n\tage: 27\n\tname: Alex\n}"]]
+    },
+    {
+        "name" : "How to fill a backpack?",
+        "question" : "How much can I fit in my backpack?",
+        "function_name" : "fill_backpack",
+        "timeout" : 1.0,
+        "args" : [[
+                    {"name": "tooth brush", "weight": 0.050},
+                    {"name": "sandwhich", "weight": 0.100},
+                    {"name": "iPod", "weight": 0.250},
+                    {"name": "tomahawk", "weight": 2.000},
+                    {"name": "bon soy", "weight": 1.000},
+                    {"name": "sling shot", "weight": 0.800},
+                    {"name": "book on python", "weight": 1.600},
+                    {"name": "water", "weight": 1.800},
+                    {"name": "tissues",  "weight": 0.150},
+                    {"name": "first aid kit", "weight": 0.750},
+                    {"name": "flint", "weight": 1.075},
+                    {"name": "magnifying glass", "weight": 0.450}
+                ]],
+        "answers" : [
+                ["{\nitems: ['tooth brush', 'sandwich', 'iPod', 'tomahawk', 'bon soy', 'sling shot', 'book on python', 'tissues', 'first aid kit']\nweight: 6.66\n}"]
+                ]
+    },
 ]
