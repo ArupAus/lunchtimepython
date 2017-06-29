@@ -1,6 +1,6 @@
 [
     {
-        "name" : "How long is a list?",
+        "name" : "List Length",
         "question" : "Find the length of a given list.",
         "function_name" : "list_length",
         "timeout" : 1.0,
@@ -8,7 +8,7 @@
         "answers" : [[5], [2], [4]]
     },
     {
-        "name" : "What is the sum of all items in a list?",
+        "name" : "List Sum",
         "question" : "Find the sum of all items in a list.",
         "function_name" : "list_sum",
         "timeout" : 1.0,
@@ -16,7 +16,7 @@
         "answers" : [[15], [30]]
     },
     {
-        "name" : "What is the maximum of all items in a list?",
+        "name" : "Max List Element",
         "question" : "Find the max of all items in a list.",
         "function_name" : "list_max",
         "timeout" : 1.0,
@@ -24,7 +24,7 @@
         "answers" : [[5], [15]]
     },
     {
-        "name" : "What is the minimum of all items in a list?",
+        "name" : "Min List Element",
         "question" : "Find the minimum of all items in a list.",
         "function_name" : "list_min",
         "timeout" : 1.0,
@@ -32,7 +32,7 @@
         "answers" : [[1], [2]]
     },
     {
-        "name" : "What is the mean of all items in a list?",
+        "name" : "Mean List Element",
         "question" : "Find the mean of all items in a list.",
         "function_name" : "list_mean",
         "timeout" : 1.0,
@@ -40,7 +40,7 @@
         "answers" : [[3.5], [8]]
     },
     {
-        "name" : "What is the square of all items in a list?",
+        "name" : "Square all Elements",
         "question" : "Find the square of all items in a list.",
         "function_name" : "square_map",
         "timeout" : 1.0,
@@ -48,7 +48,7 @@
         "answers" : [[1,4,9,16,25,36], [25,100,225,4]]
     },
     {
-        "name" : "How can I add another entry to the end of a list?",
+        "name" : "Append to a List",
         "question" : "How to append to a list",
         "function_name" : "my_append",
         "timeout" : 1.0,

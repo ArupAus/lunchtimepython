@@ -109,6 +109,13 @@ Sample input/output:
 ["cat", "dog", "elephant", "pig", "zebra"]
 ```
 
+Submit your function to markerBot as shown:
+```py
+def my_append(a_list, element):
+	# add your function her
+	return appended_list
+```
+
 ## Into the wild
 
 Instead of going to work tomorrow you decide to go on an adventure. You have a number of items that you would like to take. However, you can only carry 7kg. Your job is to pack you bag with as many items as you can while ensuring that the weight of the backpack does not exceed 6kg.

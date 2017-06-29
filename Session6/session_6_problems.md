@@ -24,28 +24,28 @@ To make our lives easier with assessing your answer. Format the above into a dic
 
 ```py
 attendance_dict = {
-	"by_attendee" : {
-		"0":0,
-		"1":0,
-		"2":1,
-		"3":1,
-		"4":7,
-		"5":11,
-		"6":8,
-		"7":5,
-		"8":13,
-		"9":4
+	u"by_attendee" : {
+		u"0":0,
+		u"1":0,
+		u"2":1,
+		u"3":1,
+		u"4":7,
+		u"5":11,
+		u"6":8,
+		u"7":5,
+		u"8":13,
+		u"9":4
 	},
-	"by_session" : {
-		"0":31,
-		"1":38,
-		"2":33,
-		"3":32,
-		"4":34,
-		"5":33,
-		"6":39,
-		"7":37,
-		"8":34
+	u"by_session" : {
+		u"0":31,
+		u"1":38,
+		u"2":33,
+		u"3":32,
+		u"4":34,
+		u"5":33,
+		u"6":39,
+		u"7":37,
+		u"8":34
 	}
 }
 ```
@@ -120,25 +120,27 @@ antelope 2
 frog 5
 ```
 
-Submit your function to the MarkerBot as shown below.
+Submit your functions to the MarkerBot separately.
 
+### The most common words.
 ```py
 def common_words(file_path):
 	# use file_path as an argument to your function
 	# so that the MarkerBot can assess your answer.
-	#
     # return list of words that occur more than 10 times in alphabetical order
 	# don't forget to ignore the words in the list above
-	#
     return words # this must be a list
 
+# you can use additional functions (in fact you should). Just make sure you submit the two functions above without changing the name of these functions.
+```
+
+### Most frequent words.
+```py
 def most_used_words(file_path):
 	# use file_path as an argument to your function
 	# so that the MarkerBot can assess your answer.
-	#
     # return list of the 20 most frequently used words in order (most common to least common)
 	# don't forget to ignore the words in the list above
-	#
     return words # this must be a list
 
 # you can use additional functions (in fact you should). Just make sure you submit the two functions above without changing the name of these functions.
