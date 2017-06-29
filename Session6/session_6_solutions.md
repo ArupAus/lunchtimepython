@@ -77,8 +77,8 @@ def common_words(file_path):
 
 def most_used_words(file_path):
     word_counter = build_word_counter(file_path)
-    word_couter_sorted = sorted(word_counter.most_common(20), key=itemgetter(1,0))
-    return [word for word, _ in word_couter_sorted]
+    word_counter_sorted = sorted(word_counter.most_common(20), key=itemgetter(1,0))
+    return [word for word, _ in word_counter_sorted]
 ```
 
 ## Password Generator
