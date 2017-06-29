@@ -19,7 +19,7 @@ Sample input/output:
 >>> Hello Smith, Alex
 ```
 
-You can use `input()` to prompt the user in your program. However the marker bot can only assess your answer if it is written as a function as shown below. Wrtie the function and use `input()` to test your function before submitting.
+You can use `input()` to prompt the user in your program. However the marker bot can only assess your answer if it is written as a function as shown below. Use `input()` to test your function before submitting.
 
 Submit your function to the MarkerBot as shown below. __Do not change the name of the function - greet.__
 

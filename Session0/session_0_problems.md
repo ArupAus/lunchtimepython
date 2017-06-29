@@ -74,7 +74,7 @@ To prompt the user to enter a number:
 ```
 
 
-## Hello World -Submitting your solutions for marking 
+## Hello World - Submitting your solutions for marking 
 No programming course should deprive you of a hello world so sticking with tradition we will require you to create a hello world program.
 This excerise is to show you how to submit solutions to this website for marking. We this example will be using Microsoft VS code which is cross platform for people with mac or *nix machines.
 
