@@ -15,8 +15,8 @@ Submit your function to the MarkerBot as shown below.
 
 ```py
 def session_attendance(file_path):
-	# use file_path as an argument to your function
-	# so that the MarkerBot can assess your answer.
+    # use file_path as an argument to your function
+    # so that the MarkerBot can assess your answer.
     return attendance_dict
 ```
 
@@ -24,29 +24,29 @@ To make our lives easier with assessing your answer. Format the above into a dic
 
 ```py
 attendance_dict = {
-	u"by_attendee" : {
-		u"0":0,
-		u"1":0,
-		u"2":1,
-		u"3":1,
-		u"4":7,
-		u"5":11,
-		u"6":8,
-		u"7":5,
-		u"8":13,
-		u"9":4
-	},
-	u"by_session" : {
-		u"0":31,
-		u"1":38,
-		u"2":33,
-		u"3":32,
-		u"4":34,
-		u"5":33,
-		u"6":39,
-		u"7":37,
-		u"8":34
-	}
+    u"by_attendee" : {
+        u"0":0,
+        u"1":0,
+        u"2":1,
+        u"3":1,
+        u"4":7,
+        u"5":11,
+        u"6":8,
+        u"7":5,
+        u"8":13,
+        u"9":4
+    },
+    u"by_session" : {
+        u"0":31,
+        u"1":38,
+        u"2":33,
+        u"3":32,
+        u"4":34,
+        u"5":33,
+        u"6":39,
+        u"7":37,
+        u"8":34
+    }
 }
 ```
 
@@ -114,7 +114,7 @@ A solution is to store the words and frequency in a dictionary. You can easily i
 ```
 >>> animal_frequency={'frog':5, 'antelope':2, 'toucan':3}
 >>> for word, frequency in animal_frequency.items():
-		print(word, frequency)
+        print(word, frequency)
 toucan 3
 antelope 2
 frog 5
@@ -125,10 +125,10 @@ Submit your functions to the MarkerBot separately.
 ### The most common words.
 ```py
 def common_words(file_path):
-	# use file_path as an argument to your function
-	# so that the MarkerBot can assess your answer.
+    # use file_path as an argument to your function
+    # so that the MarkerBot can assess your answer.
     # return list of words that occur more than 10 times in alphabetical order
-	# don't forget to ignore the words in the list above
+    # don't forget to ignore the words in the list above
     return words # this must be a list
 
 # you can use additional functions (in fact you should). Just make sure you submit the two functions above without changing the name of these functions.
@@ -137,10 +137,10 @@ def common_words(file_path):
 ### Most frequent words.
 ```py
 def most_used_words(file_path):
-	# use file_path as an argument to your function
-	# so that the MarkerBot can assess your answer.
+    # use file_path as an argument to your function
+    # so that the MarkerBot can assess your answer.
     # return list of the 20 most frequently used words in order (most common to least common)
-	# don't forget to ignore the words in the list above
+    # don't forget to ignore the words in the list above
     return words # this must be a list
 
 # you can use additional functions (in fact you should). Just make sure you submit the two functions above without changing the name of these functions.
@@ -159,11 +159,11 @@ import string
 import random
 
 def generate_password():
-	possible_chars = string.ascii_letters + string.digits # what is string.ascii_letters and string.digits ?
-	password = ''
-	# write your python code here
-	# use a for loop and look into (google) python's random.choice module
-	return password
+    possible_chars = string.ascii_letters + string.digits # what is string.ascii_letters and string.digits ?
+    password = ''
+    # write your python code here
+    # use a for loop and look into (google) python's random.choice module
+    return password
 
 ```
 
