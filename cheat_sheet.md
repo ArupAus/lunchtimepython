@@ -231,3 +231,37 @@ f = open('file.txt', 'w')    # read mode
 f.write("To write or not to write\nthat is the question!\n")
 f.close()
 ```
+
+## Session 6: Good Programming Practices
+
+
+
+__Structuring your code__
+
+Once you start making bigger programs you will need to start thinking a bit about breaking your program into separate .py file and grouping them into folders. This will make it easier for you and other to understand your program. [The Hitchhiker's Guide to Python](http://python-guide-pt-br.readthedocs.io/en/latest/writing/structure/#structure-of-the-repository) has a useful guide to structuring you program. A little bit of planning at the beginning can make your life a lot easier down the track.
+
+A typical folder structure for a python project looks like this:
+
+```
+myprojectname /
+	myprojectname /
+		__init__.py
+		main.py
+		subfolder /
+			python_file1.py
+			python_file2.py
+		subfolder2 /
+			python_file1.py
+			python_file2.py
+	docs /
+		some_notes.pdf
+		tutorial.pdf
+	test /
+		__init__.py
+		unit_tests.py
+	lib /
+		c_extensions_or_libraries.c (probably won't need this)
+	README.md
+	setup.py (probably won't need this)
+	requirements.txt (python package manager creates this)
+```

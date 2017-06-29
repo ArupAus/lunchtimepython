@@ -4,7 +4,7 @@
         "question" : "We would like you to investigate attendance in the python course.",
         "function_name" : "session_attendance",
         "timeout" : 1.0,
-        "args" : [[]],
+        "args" : [["attendance.csv"]],
         "answers" : [{
             "by_attendee" : {
                 "0":0,
@@ -36,7 +36,7 @@
         "question" : "Find the most common words in the 2016 budget speech. List all the words that occur more than 10 times.",
         "function_name" : "common_words",
         "timeout" : 1.0,
-        "args" : [[]],
+        "args" : [["2016_budget_speech.txt"]],
         "answers" : [["australian", "australians", "billion", "budget", "businesses", "cent", "contributions", "economic", "economy", "four", "government", "growth", "including", "income", "job", "jobs", "measures", "million", "new", "people", "per", "plan", "rate", "superannuation", "support", "tax", "will", "year", "young"]]
     },
     {
@@ -44,7 +44,7 @@
         "question" : "Find the most common words in the 2016 budget speech. List the 20 most frequently used words in order (most common to least common).",
         "function_name" : "most_used_words",
         "timeout" : 1.0,
-        "args" : [[]],
+        "args" : [["2016_budget_speech.txt"]],
         "answers" : [["will", "tax", "jobs", "new", "per", "plan", "cent", "businesses", "superannuation", "million", "budget", "economic", "australians", "people", "billion", "young", "rate", "income", "economy", "growth"]]
     }
 ]

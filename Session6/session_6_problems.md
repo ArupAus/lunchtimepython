@@ -14,8 +14,9 @@ Again, plan carefully for this problem. Think about the steps to solve the probl
 Submit your function to the MarkerBot as shown below.
 
 ```py
-def session_attendance():
-    # place your code here
+def session_attendance(file_path):
+	# use file_path as an argument to your function
+	# so that the MarkerBot can assess your answer.
     return attendance_dict
 ```
 
@@ -122,12 +123,18 @@ frog 5
 Submit your function to the MarkerBot as shown below.
 
 ```py
-def common_words():
+def common_words(file_path):
+	# use file_path as an argument to your function
+	# so that the MarkerBot can assess your answer.
+	#
     # return list of words that occur more than 10 times in alphabetical order
 	# don't forget to ignore the words in the list above
     return words # this must be a list
 
-def most_used_words():
+def most_used_words(file_path):
+	# use file_path as an argument to your function
+	# so that the MarkerBot can assess your answer.
+	#
     # return list of the 20 most frequently used words in order (most common to least common)
 	# don't forget to ignore the words in the list above
     return words # this must be a list
