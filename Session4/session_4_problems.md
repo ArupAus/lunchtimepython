@@ -27,10 +27,7 @@ Try splitting by different characters and see what you come up with.
 
 ```
 
-
-## Evaluating lines
-
-Below is a snippet that will open a text file named `example.txt` write some content and close a file.  Can you write some code that will evaluate the word count of line of text in `example.txt` and print it to the screen?
+Below is a snippet that will open a text file named `example.txt` write some content and close a file. Can you write some code that will evaluate the word count of line of text in `example.txt` and print it to the screen?
 
 ```py
 
@@ -58,13 +55,26 @@ Example Output
 > Line 0 word count: 6
 > Line 1 word count: 4
 ```
+
 ### longest_line
-Write a function that will return a dict of line no. and number of words in the longest line in a given file. Line numbers start at 0 for this problem.
+Write a function that will find the line with the greatest number of words and return a dict with the line number and number of words. Line numbers start at 0 for this problem.
+
+For example, the text below
+```
+Coconut is a functional programming language that compiles to Python.
+Since all valid Python is valid Coconut, using Coconut will only extend and enhance what you're already capable of in Python.
+Why use Coconut? Coconut is built to be useful.
+```
+would yield
+```
+{"line_number":1, "num_words":21}
+```
+
 This time you will be using the `with open() as ...:` statement instead of just open. It will behave in a similar manner but will automatically close the file after it reaches the end of the indentation. 
 
-Supply your text file to the funciton via the `filepath` argument and the character you wish to split lines by with the `split_char` arg. 
+Supply your text file to the funciton via the `file_path` argument and the character you wish to split lines by with the `split_char` arg. 
 
-__Do not change the function name from__ `longest_line`. In the event of a tie for total number of words in a line, return the last occurence
+In the event of a tie for total number of words in a line, return the last occurence
 
 ```py
 def longest_line(file_path, split_char):
@@ -73,13 +83,12 @@ def longest_line(file_path, split_char):
 
     return {u'line_number': line_number, u'num_words': num_words}
 ```
-__* leave the u in front of the keys in the dictionary you return__
+__* leave the u in front of the keys in the dictionary you return.__
 
 
 ### longest_line_string
 
 In the event of a tie for total number of words in a line return the line with the longest string in the line. Line numbers start at 0 for this problem.
-__Do not change the function name from__ `longest_line_string`. 
 
 ```py
 def longest_line_string(file_path, split_char):
@@ -88,7 +97,7 @@ def longest_line_string(file_path, split_char):
 
     return {u'line_number': line_number, u'num_words': num_words, u'longest_string_length':longest_string_length}
 ```
-__* leave the u in front of the keys in the dictionary you return__
+__* leave the u in front of the keys in the dictionary you return.__
 
 ## Chasing outstanding debts
 
@@ -100,7 +109,7 @@ Below is a sample of what it looks like:
 |Job Number|Debt|
 |-----|------|
 |243156|1235.63|
-|236412|2356.21|P
+|236412|2356.21|
 |315224|23.01|
 
 What would the instructions look like to do this by hand? Surprisingly, the instructions for the computer are quite similar.
@@ -118,20 +127,19 @@ with open("debts.csv", 'rU') as csvfile:
 ```
 ### biggest_debt
 
-Based on the example above write a function that returns the job number and amount of the biggest debt
-__Do not change the function name from__ `biggest_debt`. In the event of a tie for biggest debt return the last occurence
+Based on the example above write a function that returns the job number and amount of the biggest debt `biggest_debt`. In the event of a tie for biggest debt return the last occurence
 
 ```py
 def biggest_debt(file_path):
     # your code here
     return {u'job_number': job_number, u'debt': round(debt, 2)}
 ```
-__* leave the u in front of the keys in the dictionary you return__
+__* leave the u in front of the keys in the dictionary you return.__
 
 ### total_debt
 
 Based on the example above write a function that calculates the total debt for a given file. Return a single number that equal the total debt from a given csv file
-__Do not change the function name from__ `total_debt`
+
 ```py
 def total_debt(file_path):
     # your code here
@@ -140,8 +148,15 @@ def total_debt(file_path):
 
 ### sorted_debt
 
-Based on the example above write a function that returns a list of dicts `{u'job_number': 123456, u'debt': 323}` sorted in descending order. An example output might look like this  `[{u'job_number': 260405, 'debt': 33209.61), {u'job_number': 233405, 22209.16}, {u'job_number': 260565, u'debt': 339.10}]`
-__Do not change the function name from__ `sorted_debt`
+Based on the example above write a function that returns a list of dicts `{u'job_number': 123456, u'debt': 323}` sorted in descending order of debt. An example output might look like this
+
+```py
+[
+    {u'job_number': 260405, u'debt': 33209.61},
+    {u'job_number': 233405, u'debt': 22209.16},
+    {u'job_number': 260565, u'debt': 339.10}
+]
+```
 
 ```py
 def sorted_debts(file_path):

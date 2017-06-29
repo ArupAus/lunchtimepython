@@ -2,7 +2,6 @@
 
 This session is the first of the group sessions. Get yourselves into groups and decide on something to build. Explain it to the tutor before you make a start. You should aim to finish the project within 4 weeks. If you think your project is really neat, apply for some additional funding to cover your time.
 
-
 If you aren't working in a group or you working remotely try your hand at these problems. They will build upon what you have learnt so far about functions, data structures and file manipulation.
 
 ## Tails
@@ -15,18 +14,17 @@ Write a program that:
 2. performs some form of check to see whether the logging data appears correct
 3. based on the outcome of the check will print to the screen a message
 
-__Pro tips__
+Some useful tips:
 
- - Save the folder WeatherData frome the Resources folder from gitlab to your desktop 
- - Save your python program in a place where you can access these files 'relatively' easily
- - Dont rush to code, break down the step on paper first
- - Ask questions, lots of them
+- Save the folder WeatherData from the Resources folder from gitlab to your desktop 
+- Save your python program in a place where you can access these files 'relatively' easily
+- Dont rush to code, break down the step on paper first
+- Ask questions, lots of them
 
 ```py
 # Create a list of logs
 WORKING_DIR = # example 'c:\\Users\\guest\\Desktop\\Session-4 Tails\\'
-logs = ...your code here
-
+logs = #...your code here
 
 for log in logs:
 	
@@ -50,13 +48,13 @@ Greg has made an executive decision that the Arup Board needs to be more engaged
 
 Greg's go to developer is on holiday at the moment and you step in to help her out. You are given the code below which is almost complete. She has done a good job and left *TODO* notes in her code where it needs fixing. Building the code as is will generate a template but its not quite finished yet. 
 
-__Pro tips__
+Some useful tips:
 
- - Save the `template.html` and `employees.csv` from github resources folder named PersonableGreg in the Resources folder into a folder on your desktop
- - Copy the code below and save it in a place where you can access the `template.html` and `employees.csv` easily, build the code first to how it works then start to make required changes
- - Direct your output to a folder where things wont get too messy
- - Dont rush to code, break down the step on paper first
- - Ask questions, lots of them
+- Save the `template.html` and `employees.csv` from github resources folder named PersonableGreg in the Resources folder into a folder on your desktop
+- Copy the code below and save it in a place where you can access the `template.html` and `employees.csv` easily, build the code first to how it works then start to make required changes
+- Direct your output to a folder where things wont get too messy
+- Dont rush to code, break down the step on paper first
+- Ask questions, lots of them
 
 ```py
 import random
