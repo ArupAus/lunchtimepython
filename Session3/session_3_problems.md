@@ -51,6 +51,33 @@ print("The longest name is: " + longest_name)
 # The longest name is Laura
 ```
 
+Build a separate function for each of the tasks above to be submitted to the marker bot:
+
+```py
+def list_length(a_list):
+	return answer
+```
+
+```py
+def list_sum(a_list):
+	return answer
+```
+
+```py
+def list_max(a_list):
+	return answer
+```
+
+```py
+def list_min(a_list):
+	return answer
+```
+
+```py
+def list_mean(a_list):
+	return answer
+```
+
 ## Square map
 
 Write a function called `square_map` that takes in a list of numbers (integers or floats) and returns a list of the same length only each element has been squared.
@@ -62,62 +89,37 @@ Sample input/output:
 [1, 4, 9, 25]
 ```
 
+Submit you answer to the marker bot using the function name below.
+```py
+def square_map(a_list):
+	return squared_list
+```
+
 **Bonus points:** Complete the problem using a [*list comprehension*](http://www.diveintopython3.net/comprehensions.html#listcomprehension).
 
 ## Append Check
 
-Write a function called `my_append` that adds an element to a list provided that element is not already in the list. Remember that lists are passed by reference! The example below shows that the `my_append` function does not actually return anything, it "mutates" (edits) the `animals` list.
+Write a function called `my_append` that adds an element to a list provided that element is not already in the list.
 
 Sample input/output:
 ```
 >>> animals = ["cat", "dog", "elephant", "pig"]
->>> my_append(animals, "dog")
->>> print(animals)
-["cat", "dog", "elephant", "pig"]
->>> my_append(animals, "zebra")
->>> print(animals)
+>>> more_animals = my_append(animals, "zebra")
+>>> print(more_animals)
 ["cat", "dog", "elephant", "pig", "zebra"]
 ```
 
-*NOTE:* Try not to mutate (edit) lists with functions in the future. We are just trying to show you how lists work with functions.
-
-## Pretty Print
-
-The output of the inbuilt python `print` function doesn't look very good when printing a dictionary. Let's right a function called `pprint` to make the output look nicer.
-
-```py
-def pprint(aDict):
-	# write your code inside this function
-```
-
-Sample input/output:
-```
->>> person = {"name":"Alex", "age":27, "height":158}
->>> pprint(person)
-{
-	name:	Alex
-	age:	27
-	height:	158
-}
-```
-
-*HINT:* Use the `person.items()` method and a for loop.
-
-
 ## Into the wild
 
-Instead of going to work tomorrow you decide to go on an adventure. You have a number of items that you would like to take. However, you can only carry 7kg. Your job is to pack you bag with as many items as you can while ensuring that the weight of the backpack does not exceed 7kg. It is best to repesent the backpack as a dictionary:
+Instead of going to work tomorrow you decide to go on an adventure. You have a number of items that you would like to take. However, you can only carry 7kg. Your job is to pack you bag with as many items as you can while ensuring that the weight of the backpack does not exceed 6kg.
 
+It is best to represent the backpack as a dictionary:
+
+```py
+backpack = {
+	items:	["toothbrush", "sandwhich", "bon soy", "book on python"]
+	weight:	2.750}
 ```
->>> print(backpack)
-{
-	items:	["toothbrush", "sandwhich", "bon soy","book on python" ]
-	weight:	2.750
-}
-```
-
-Note this is not an optimisation problem. Put what ever you want in the backpack. Just make sure it is weighs less than 7kg.
-
 
 Below is a list of your items that you could possibly take where each item is represented as a dictionary:
 
@@ -139,4 +141,9 @@ items = [
 ]
 ```
 
-**Bonus points:** What is the best selection of items to maximise the number of items while keeping the weight below 7kg (i.e. make it an optimisation problem)?
+Build a function called `fill_backpack` that takes in the list of items as a sinlge argument and returns the backpack dictionary.
+
+```py
+def fill_backpack(items):
+	return backpack
+```
