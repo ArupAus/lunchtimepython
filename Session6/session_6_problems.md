@@ -95,8 +95,18 @@ We would like to find out a few things from the speech:
 1. What words occur more than 10 times?
 2. What were the 20 most frequently used words that are longer than 3 characters (this will ignore 'the', 'and' etc)?
 
-A simple approach is to use a dictionary to store words and their corresponding frequencies.
-You will need to extract each word from the speech individually, remembering that we should consider 'Tax' as the same word as 'tax' and 'tax,'. Though python certainly will consider these the same.
+
+
+You will need to extract each word from the speech individually, remembering that we should consider 'Tax' as the same word as 'tax' and 'tax,'. Though python certainly will consider these the same. A simple approach is to use a dictionary to store words and their corresponding frequencies.
+
+```
+>>> animal_frequency={'frog':5, 'antelope':2, 'toucan':3}
+>>> for word, frequency in animal_frequency.items():
+        print(word, frequency)
+toucan 3
+antelope 2
+frog 5
+```
 
 To make things more interesting, lets ignore the boring words:
 
@@ -109,26 +119,19 @@ IGNORE = [
 ]
 ```
 
-A solution is to store the words and frequency in a dictionary. You can easily iterate through a dictionaries key-value pairs as shown below:
+Answer the two questions above by submitting two separate functions to the MarkerBot. The functions signatures are shown below. **Read the comments carefully!** Your functions must return the list of words in a very particular format for the MarkerBot to assess the functions correctly.
 
-```
->>> animal_frequency={'frog':5, 'antelope':2, 'toucan':3}
->>> for word, frequency in animal_frequency.items():
-        print(word, frequency)
-toucan 3
-antelope 2
-frog 5
-```
-
-Submit your functions to the MarkerBot separately.
+The [python website](https://docs.python.org/3/howto/sorting.html#sortinghowto) has a great page on sorting.
 
 ### The most common words.
 ```py
 def common_words(file_path):
-    # use file_path as an argument to your function
-    # so that the MarkerBot can assess your answer.
-    # return list of words that occur more than 10 times in alphabetical order
-    # don't forget to ignore the words in the list above
+    # Use file_path as an argument to your function so that the MarkerBot can assess your answer.
+    #
+    # Return the list of words that occur more than 10 times in alphabetical order.
+    #
+    # Don't forget to ignore the words in the list above.
+    #
     return words # this must be a list
 
 # you can use additional functions (in fact you should). Just make sure you submit the two functions above without changing the name of these functions.
@@ -137,10 +140,13 @@ def common_words(file_path):
 ### Most frequent words.
 ```py
 def most_used_words(file_path):
-    # use file_path as an argument to your function
-    # so that the MarkerBot can assess your answer.
-    # return list of the 20 most frequently used words in order (most common to least common)
-    # don't forget to ignore the words in the list above
+    # Use file_path as an argument to your function so that the MarkerBot can assess your answer.
+    #
+    # Return the list of the 20 most frequently used words in ascending order (from least commone to most common).
+    # If two words have the same frequency, order them in alphabetical order.
+    #
+    # don't forget to ignore the words in the list above.
+    #
     return words # this must be a list
 
 # you can use additional functions (in fact you should). Just make sure you submit the two functions above without changing the name of these functions.

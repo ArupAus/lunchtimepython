@@ -25,8 +25,8 @@ def convert_attendance_record_to_bools(sessions):
 
 def session_attendance(file_path):
 	number_of_sessions = 9
-	session_attendance = {0:0, 1:0, 2:0, 3:0, 4:0, 5:0, 6:0, 7:0, 8:0}
-	attendee_consistency = {0:0, 1:0, 2:0, 3:0, 4:0, 5:0, 6:0, 7:0, 8:0, 9:0}
+	session_attendance = {u'0':0, u'1':0, u'2':0, u'3':0, u'4':0, u'5':0, u'6':0, u'7':0, u'8':0}
+	attendee_consistency = {u'0':0, u'1':0, u'2':0, u'3':0, u'4':0, u'5':0, u'6':0, u'7':0, u'8':0, u'9':0}
 
 	attendance_records = get_attendance_records(file_path)
 
@@ -53,6 +53,7 @@ def session_attendance(file_path):
 ```py
 import string
 import collections
+from operator import itemgetter
 
 IGNORE = {
     'a', 'also', 'an', 'and', 'are', 'as', 'be', 'by', 'can', 'do', 'for', 'from',
@@ -76,7 +77,9 @@ def common_words(file_path):
 
 def most_used_words(file_path):
     word_counter = build_word_counter(file_path)
-    return [word for word, _ in word_counter.most_common(20)]
+    word_couter_sorted = sorted(word_counter.most_common(20), key=itemgetter(1,0))
+    print(word_couter_sorted)
+    return [word for word, _ in word_couter_sorted]
 ```
 
 ## Password Generator
