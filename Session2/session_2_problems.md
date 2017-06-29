@@ -29,10 +29,10 @@ def longer_string(string1, string2):
 
 ## Printing Triangles
 
-Create a function called `print_triangle` that takes a single integer and returns a sideways *triangle* of that height, made of *'s. For example:
+Create a function called `build_triangle` that takes a single integer and returns a sideways *triangle* of that height, made of *'s. For example:
 
 ```
->>> print_triangle(5)
+>>> build_triangle(5)
 *
 **
 ***
@@ -54,9 +54,17 @@ World!
 Submit your function to the MarkerBot as shown below.
 
 ```py
-def print_triangle(n):
+def build_triangle(n):
     # place your code here
     return triangle
+```
+
+Say you wanted to build a three storey triangle, you function would return the string `"*\n**\n***"`. Which, when printed, looks like:
+
+```
+*
+**
+***
 ```
 
 **Bonus points:** make a pyramid instead.
@@ -75,10 +83,11 @@ def sum_multiples(n):
     # place your code here
     return total
 
+# feel free to add extra functions to make your code more readable
+# just make sure you don't change the name of the main function (sum_multiples)
+# The main function is what the markerBot assesses.
 def is_multiple(i):
-    # feel free to add extra functions to make your code more readable
     # you can name these functions whatever you want
-    # just make sure you don't change the name of the main function (sum_multiples)
 ```
 
 *This is the first problem from [Project Euler](https://projecteuler.net/about). If you like math and enjoy these problem sets you will love project euler.*
@@ -103,8 +112,7 @@ What is the sum of all numbers below 1000 that are multiples of 7, 13 or 23?
 
 ## Prime Numbers
 
-Create a function called `is_prime` that takes a single integer and returns `True` or `False` indicating whether or not the number is prime. A number is prime if its only even divisors are 1 and the number itself. For example, 7 is
-prime since it is only divisible by 1 and 7, but 14 is not prime since it is divisible by 1, 2, 7 and 14.
+Create a function called `is_prime` that takes a single integer and returns `True` or `False` indicating whether or not the number is prime. A number is prime if its only even divisors are 1 and the number itself. For example, 7 is prime since it is only divisible by 1 and 7, but 14 is not prime since it is divisible by 1, 2, 7 and 14.
 
 You will likely need to use some sort of loop inside your function.
 
