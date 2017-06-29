@@ -4,7 +4,11 @@ This session is the first of the group sessions. Get yourselves into groups and 
 
 If you aren't working in a group or you working remotely try your hand at these problems. They will build upon what you have learnt so far about functions, data structures and file manipulation.
 
-## Tails
+**NOTE: That these problems cannot be submitted to the marketbot.**
+
+You can find the files for both of the problems below [here](https://github.com/ArupAus/lunchtimepython/tree/2017/Session5/Resources).
+
+## Meteor Man
 
 You land your dream job at the bureau of meteorology and the weather is your oyster. Your first job is to check the logs of weather stations around your area and make that the data is being recorded correctly. Using your wealth of programming knowledge you devise a plan to write a python program that will do you work for you while you kick back and daydream what an aurora borealis tornado might look like.
 
@@ -41,7 +45,6 @@ Example Outputs
 > Weather Station Sydney recordings seem fishy... take a better look
 ```
 
-
 ## Personable Greg
 
 Greg has made an executive decision that the Arup Board needs to be more engaged with its younger employees and overly formal communication is only making the board look even more out of touch. He has decided that all employees under the age of 30 should recieve a less formal emails. Furthermore, there should be numerous random greetings so that the emails appear more personable.
@@ -50,7 +53,7 @@ Greg's go to developer is on holiday at the moment and you step in to help her o
 
 Some useful tips:
 
-- Save the `template.html` and `employees.csv` from github resources folder named PersonableGreg in the Resources folder into a folder on your desktop
+- Save the `template.html` and `employees.csv` from github resources folder named `PersonableGreg` in the Resources folder into a folder on your desktop
 - Copy the code below and save it in a place where you can access the `template.html` and `employees.csv` easily, build the code first to how it works then start to make required changes
 - Direct your output to a folder where things wont get too messy
 - Dont rush to code, break down the step on paper first
