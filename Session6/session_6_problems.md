@@ -129,6 +129,7 @@ def common_words(file_path):
 	#
     # return list of words that occur more than 10 times in alphabetical order
 	# don't forget to ignore the words in the list above
+	#
     return words # this must be a list
 
 def most_used_words(file_path):
@@ -137,12 +138,13 @@ def most_used_words(file_path):
 	#
     # return list of the 20 most frequently used words in order (most common to least common)
 	# don't forget to ignore the words in the list above
+	#
     return words # this must be a list
 
-# you can use additional functions (in fact you should). Just make sure you submit these 
+# you can use additional functions (in fact you should). Just make sure you submit the two functions above without changing the name of these functions.
 ```
 
-## The following questions cannot be not marked by the MARKBOT. They are bonus problems.
+### The following questions cannot be not marked by the MARKBOT. They are bonus problems.
 
 ## Password Generator
 
@@ -194,4 +196,4 @@ BlackMandarin685
 
 Note that the first letter of each word is capitalised.
 
-## DISCLAIMER: You should do some more reading about random password generators before you attempt to use these functions. It turns out that random.choice is not really random...
+### DISCLAIMER: You should do some more reading about random password generators before you attempt to use these functions. It turns out that random.choice is not really random...
