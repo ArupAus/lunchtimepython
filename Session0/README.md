@@ -32,28 +32,31 @@ Once Slack is installed, you'll be prompted to answer a few questions:
 
 ## Step 2: Introduction to Automate the Boring Stuff
 
-A great teacher, Al Sweigart, created an open source beginners guide to python programming called [Automate the Boring Stuff](https://automatetheboringstuff.com/). It is a great resource with an online text book and youtube videos. Since it aligns so closely to our course and goals that we will rely on it throughout the course.
+A great teacher, Al Sweigart, created an open source beginners guide to python programming called [Automate the Boring Stuff](https://automatetheboringstuff.com/). It is a great resource with an online text book and youtube videos. Since it aligns so closely to our course, we will use it throughout the course. It is a great place to go if you want more information.
 
 Please watch this [short video](https://youtu.be/1F_OgqRuSdI) to get started. Ignore the download instructions, we will get to that.
 
 ## Step 3: Proxy Settings
 
-Arup IT have set up a proxy to manage (and secure) internet traffic. We will need to add  the proxy settings to your system variables in order to use Visual Studio Code and Python.
+*You can skip this step if it confusing. Just raise your hand in the first session and one of the tutors will help.*
 
-Here is a [script](https://github.com/ArupAus/lunchtimepython/blob/2017/Session0/Resources/set_proxy.cmd),  `set_proxy.cmd` will set the proxy for you. Right click on the page and save as set_proxy.cmd. Double click to run the script. If you have admin rights on you computer it should add the proxy settings to your system variables.
+Arup IT have set up a proxy to manage (and secure) internet traffic. We will need to add the proxy settings to your system variables in order to use Visual Studio Code and Python.
 
-**NOTE:** *Setting this proxy will cause all sort of problems when trying to work from home. You will have to work on the vpn or unset the proxy settings if you want to work from home. If this confuses you, skip this step and we will do it in Session 1.*
+Here is a [script](https://github.com/ArupAus/lunchtimepython/tree/2017/Session0/Resources),  `set_proxy.cmd` will set the proxy for you. Download it and save the file to your desktop. Double click the file to run the script. If you have admin rights on you computer it should add the proxy settings to your system variables.
+
+**NOTE:** *Setting this proxy will cause all sort of problems when trying to work from home. You will have to work on the vpn or unset the proxy settings if you want to work from home.*
 
 ## Step 4: Install Python
 
 You may have heard us say python is a programming language. So why do we need to install anything? We need to install the 'interpreter' that understands our python code and tells the computer what to do. That is the first step.
 
-We have downloaded python from the python website for you and placed it on the Arup network drive. This way we can minimise our number of downloads from Rackspace - the genorous company that hosts python for everyone... for free!
+We have downloaded python from the python website for you and placed it on the Arup network drive. This way we can minimise our number of downloads from Rackspace - the generous company that hosts python for everyone... for free!
 
 1. Copy the `python-3.6.1-amd64.exe` file from the Arup Programs folder (P:\Program Files\Python) to your desktop.
 2. Double click the file.
 3. Select `Run` if a security warning appears.
-4. Tick the box `Add Python 3.6 to PATH` and then select `Install Now`.
+4. **IMPORTANT:** Tick the box `Add Python 3.6 to PATH`.
+5. Select `Install Now`.
 
 ![](https://raw.githubusercontent.com/ArupAus/lunchtimepython/2017/Session0/Resources/PythonInstallImages/Step1.PNG)
 
@@ -77,7 +80,9 @@ In the videos you have been watching from Automate the Boring Stuff, Al uses a t
 
 ## Step 6: Your First Problem Set
 
-In each session we will provide a README.md (this file), a problem set and solutions. As part of this pre work, watch the [next video](https://youtu.be/7qHMXu99d88) from automate the boring stuff and try to solve problems in **Session 0**.
+You are now set up. Lets' take python for a spin.
+
+In each session we a problem set. As part of this pre work, watch the [next video](https://youtu.be/7qHMXu99d88) from automate the boring stuff and try to solve the problems in **Session 0**.
 
 Use slack to ask questions if you get stuck.
 
