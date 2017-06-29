@@ -118,7 +118,7 @@ def my_append(a_list, element):
 
 ## Into the wild
 
-Instead of going to work tomorrow you decide to go on an adventure. You have a number of items that you would like to take. However, you can only carry 7kg. Your job is to pack you bag with as many items as you can while ensuring that the weight of the backpack does not exceed 6kg.
+Instead of going to work tomorrow you decide to go on an adventure. You have a number of items that you would like to take. However, you can only carry 6kg. Your job is to pack you bag with as many items as you can while ensuring that the weight of the backpack does not exceed 6kg.
 
 It is best to represent the backpack as a dictionary:
 
@@ -148,7 +148,7 @@ items = [
 ]
 ```
 
-Build a function called `fill_backpack` that takes in the list of items as a sinlge argument and returns the backpack dictionary.
+Build a function called `fill_backpack` that takes in the list of items as a single argument and returns the backpack dictionary.
 
 ```py
 def fill_backpack(items):

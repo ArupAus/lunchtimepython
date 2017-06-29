@@ -75,8 +75,8 @@
             {"name": "magnifying glass", "weight": 0.450}
         ]],
         "answers" : [[{
-	        "items": ["tooth brush", "sandwhich", "iPod", "bon soy", "sling shot", "tissues", "first aid kit", "flint", "magnifying glass"],
-	        "weight": 4.625
+	        "items": ["tooth brush","sandwhich","iPod","tomahawk","bon soy","sling shot","book on python","tissues"],
+	        "weight": 5.95
         }]]
     }
 ]

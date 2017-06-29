@@ -14,7 +14,7 @@
         "question" : "Longest Line String",
         "function_name" : "longest_line_string",
         "timeout" : 2.5,
-        "args" : [["lines_0.txt", " "], ["lines_0.txt", " "], ["lines_2.txt", " "]],
+        "args" : [["lines_0.txt", " "], ["lines_1.txt", " "], ["lines_2.txt", " "]],
         "answers" : [[{"line_number": 3, "num_words": 4, "longest_string_length": 23}],
                      [{"line_number": 7, "num_words": 7, "longest_string_length": 27}],
                      [{"line_number": 23, "num_words": 8, "longest_string_length":43}]]
