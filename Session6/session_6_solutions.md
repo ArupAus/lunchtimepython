@@ -25,8 +25,8 @@ def convert_attendance_record_to_bools(sessions):
 
 def session_attendance(file_path):
 	number_of_sessions = 9
-	session_attendance = {u'0':0, u'1':0, u'2':0, u'3':0, u'4':0, u'5':0, u'6':0, u'7':0, u'8':0}
-	attendee_consistency = {u'0':0, u'1':0, u'2':0, u'3':0, u'4':0, u'5':0, u'6':0, u'7':0, u'8':0, u'9':0}
+	session_attendance = {u'Session_0':0, u'Session_1':0, u'Session_2':0, u'Session_3':0, u'Session_4':0, u'Session_5':0, u'Session_6':0, u'Session_7':0, u'Session_8':0}
+	attendee_consistency = {u'0_Sessions':0, u'1_Sessions':0, u'2_Sessions':0, u'3_Sessions':0, u'4_Sessions':0, u'5_Sessions':0, u'6_Sessions':0, u'7_Sessions':0, u'8_Sessions':0, u'9_Sessions':0}
 
 	attendance_records = get_attendance_records(file_path)
 
@@ -34,12 +34,13 @@ def session_attendance(file_path):
 		record = record.strip('\n').split(',') # convert record from a string to a list
 		sessions = convert_attendance_record_to_bools(record[2:])
 		number_of_sessions = len(sessions)
-		number_of_sessions_attended = sum(sessions)
+		number_of_sessions_attended = str(sum(sessions))+'_Sessions'
 		# add record to attendee_consitency dictionary
 		attendee_consistency[number_of_sessions_attended] += 1
 		# add record to session attendance dictionary
 		for i in range(number_of_sessions):
-			session_attendance[i] += sessions[i]
+            key = 'Session_'+int(i)
+			session_attendance[key] += sessions[i]
     
     return {
         u"by_attendee" : attendee_consistency,

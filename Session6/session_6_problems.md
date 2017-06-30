@@ -25,27 +25,27 @@ To make our lives easier with assessing your answer. Format the above into a dic
 ```py
 attendance_dict = {
     u"by_attendee" : {
-        u"0":0,
-        u"1":0,
-        u"2":1,
-        u"3":1,
-        u"4":7,
-        u"5":11,
-        u"6":8,
-        u"7":5,
-        u"8":13,
-        u"9":4
+        u"0_Sessions":0,
+        u"1_Sessions":0,
+        u"2_Sessions":1,
+        u"3_Sessions":1,
+        u"4_Sessions":7,
+        u"5_Sessions":11,
+        u"6_Sessions":8,
+        u"7_Sessions":5,
+        u"8_Sessions":13,
+        u"9_Sessions":4
     },
     u"by_session" : {
-        u"0":31,
-        u"1":38,
-        u"2":33,
-        u"3":32,
-        u"4":34,
-        u"5":33,
-        u"6":39,
-        u"7":37,
-        u"8":34
+        u"Session_0":31,
+        u"Session_1":38,
+        u"Session_2":33,
+        u"Session_3":32,
+        u"Session_4":34,
+        u"Session_5":33,
+        u"Session_6":39,
+        u"Session_7":37,
+        u"Session_8":34
     }
 }
 ```

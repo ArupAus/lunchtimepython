@@ -7,27 +7,27 @@
         "args" : [["attendance.csv"]],
         "answers" : [{
             "by_attendee" : {
-                "0":0,
-                "1":0,
-                "2":1,
-                "3":1,
-                "4":7,
-                "5":11,
-                "6":8,
-                "7":5,
-                "8":13,
-                "9":4
+                "0_Sessions":0,
+                "1_Sessions":0,
+                "2_Sessions":1,
+                "3_Sessions":1,
+                "4_Sessions":7,
+                "5_Sessions":11,
+                "6_Sessions":8,
+                "7_Sessions":5,
+                "8_Sessions":13,
+                "9_Sessions":4
             },
             "by_session" : {
-                "0":31,
-                "1":38,
-                "2":33,
-                "3":32,
-                "4":34,
-                "5":33,
-                "6":39,
-                "7":37,
-                "8":34
+                "Session_0":31,
+                "Session_1":38,
+                "Session_2":33,
+                "Session_3":32,
+                "Session_4":34,
+                "Session_5":33,
+                "Session_6":39,
+                "Session_7":37,
+                "Session_8":34
             }
         }]
     },
