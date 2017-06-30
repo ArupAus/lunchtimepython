@@ -45,7 +45,7 @@
         "function_name" : "most_used_words",
         "timeout" : 1.0,
         "args" : [["2016_budget_speech.txt"]],
-        "answers" : [["growth","economy","income","rate","young","billion","people","australians","budget","economic","million","superannuation","businesses","cent","plan","per","new","jobs","tax","will"]]
+        "answers" : [["four","economy","income","rate","young","billion","people","australians","budget","economic","million","superannuation","businesses","cent","plan","per","new","jobs","tax","will"]]
     }
 ]
 
