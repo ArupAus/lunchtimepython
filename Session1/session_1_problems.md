@@ -19,7 +19,7 @@ Sample input/output:
 >>> Hello Smith, Alex
 ```
 
-You can use `input()` to prompt the user in your program. However the marker bot can only assess your answer if it is written as a function as shown below. Use `input()` to test your function before submitting.
+You can use `input()` to prompt the user in your program. However the marker bot can only assess your answer if it is written as a function as shown below. Use `input()` to test your function before submitting. __Make sure you remove print statements and the input function when you submit!__
 
 Submit your function to the MarkerBot as shown below. __Do not change the name of the function - greet.__
 
@@ -37,6 +37,8 @@ How far do you have to travel to get to work? Write a function that, given how m
 - if the user travels greater than 2km to work, print 'You should cycle.'
 - if the user travels 2km or less to work, print 'Stop being lazy and walk!'
 
+__Take a look at the cheat sheet for session 1 for clues on how to use conditional statements__
+
 Here are some example inputs and their expected outputs:
 
 |Input|Output|
@@ -46,6 +48,8 @@ Here are some example inputs and their expected outputs:
 |2|'Stop being lazy and walk!'|
 
 Again you can use `input()` to test your program, but submit your answer to the marker bot using a function as shown below. __Do not change the name of the function - suggest_travel.__
+
+An additional resource on conditional staements can be found here on [automate the boring stuff on youtube](https://www.youtube.com/watch?v=lWeCgEbk-Ro&feature=youtu.be)
 
 ```py
 def suggest_travel(distance):
@@ -78,7 +82,9 @@ Ask the user to input a string. Return this string, with every character (char) 
 
 e.g. 'python' should become 'ppyytthhoonn'
 
-Use `input()` to test your program, but submit your answer to the marker bot using a function as shown below. __Do not change the name of the function - double_char.__
+Use `input()` to test your program, but  __make sure you remove print statements and the input function when you submit__
+
+__**Do not change the name of the function - double_char.__
 
 ```py
 def double_char(word):
