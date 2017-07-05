@@ -44,7 +44,7 @@ Here are some example inputs and their expected outputs:
 |Input|Output|
 |-----|------|
 |6|'You should take the train.'|
-|4|'You should cycle'|
+|4|'You should cycle.'|
 |2|'Stop being lazy and walk!'|
 
 Again you can use `input()` to test your program, but submit your answer to the marker bot using a function as shown below. __Do not change the name of the function - suggest_travel.__
