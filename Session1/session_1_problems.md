@@ -36,8 +36,8 @@ def greet(name):
     # place your code here
     return greeting
 
-greet('Big Lebowski')
-greet('Captain Sparrow')
+print(greet('Big Lebowski'))
+print(greet('Captain Sparrow'))
 ```
 
 ## Journey to Work
@@ -58,7 +58,7 @@ Here are some example inputs and their expected outputs:
 |4|'You should cycle.'|
 |2|'Stop being lazy and walk!'|
 
-Again you can use `input()` to test your program, but submit your answer to the marker bot using a function as shown below. __Do not change the name of the function - suggest_travel.__
+Submit your answer to the marker bot using a function as shown below. __Do not change the name of the function - suggest_travel.__
 
 An additional resource on conditional staements can be found here on [automate the boring stuff on youtube](https://www.youtube.com/watch?v=lWeCgEbk-Ro&feature=youtu.be)
 
@@ -93,9 +93,7 @@ Ask the user to input a string. Return this string, with every character (char) 
 
 e.g. 'python' should become 'ppyytthhoonn'
 
-Use `input()` to test your program, but  __make sure you remove print statements and the input function when you submit__
-
-__**Do not change the name of the function - double_char.__
+__Make sure you remove print statements and the input function when you submit. Do not change the name of the function - double_char.__
 
 ```py
 def double_char(word):
