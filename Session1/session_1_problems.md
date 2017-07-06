@@ -15,11 +15,11 @@ Write a script that prompts the user for their full name, then print a greeting 
 
 Sample input/output:
 ```
->>> What is your full name: Alex Smith
->>> Hello Smith, Alex
+>>> What is your full name: Gandalf Greybeard
+>>> Hello Greybeard, Gandalf
 ```
 
-You can use `input()` to prompt the user in your program. However the marker bot can only assess your answer if it is written as a function as shown below. Use `input()` to test your function before submitting. __Make sure you remove print statements and the input function when you submit!__
+You should test your function before submitting it. However the marker bot can only assess your answer if it is written as a function as shown below. __Make sure you remove print statements when you submit!__
 
 Submit your function to the MarkerBot as shown below. __Do not change the name of the function - greet.__
 
@@ -27,6 +27,17 @@ Submit your function to the MarkerBot as shown below. __Do not change the name o
 def greet(name):
     # place your code here
     return greeting
+```
+
+You can test your function on your computer by calling the function as shown below.
+
+```py
+def greet(name):
+    # place your code here
+    return greeting
+
+greet('Big Lebowski')
+greet('Captain Sparrow')
 ```
 
 ## Journey to Work
