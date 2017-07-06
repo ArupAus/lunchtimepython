@@ -101,9 +101,6 @@ def double_char(word):
     return word_with_repeated_chars
 ```
 
-
-**Bonus points:** Ask the user for an number (n) as well. Repeat each char in the given string n times.
-
 ## Sum
 
 Calculate the sum of:
