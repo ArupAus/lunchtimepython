@@ -17,7 +17,7 @@ If you are lost, look at these resources (probably in this order):
 
 ## What this course covers
 
-This course has been broken up into a series of sessions that introduce the concepts involved in computer programming using the python programming language. Each sesson includes a mini lecture and a problem set. It is intended that you attend a session every fortnight.
+This course has been broken up into a series of sessions that introduce the concepts involved in computer programming using the python programming language. Each sesson includes a mini lecture and a problem set. It is intended that you attend a session every week.
 
 The course is intended to be worked through in a group. Please join a group and create a [slack](www.slack.com/au‎) channel for your group (invite your tutor). Sessions 5, 7 & 8 are dedicated for group projects.
 
