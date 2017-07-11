@@ -24,7 +24,7 @@ Submit your function to the MarkerBot as shown below.
 def longer_string(string1, string2):
     # you can use whatever variable names want for the arguments and return variable
     # place your code here
-    return longer_string
+    return the_longer_string
 ```
 
 ## Printing Triangles
