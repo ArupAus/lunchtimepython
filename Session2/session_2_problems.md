@@ -32,7 +32,8 @@ def longer_string(string1, string2):
 Create a function called `build_triangle` that takes a single integer and returns a sideways *triangle* of that height, made of *'s. For example:
 
 ```
->>> build_triangle(5)
+>>> triangle = build_triangle(5)
+>>> print(triangle)
 *
 **
 ***
@@ -95,7 +96,8 @@ def is_multiple(i):
 **Bonus points:** This is very similar to a problem in session 1. Lets take it a step further. Change the function so that it the numbers we are checking are multiples of become arguments to the function. For example:
 
 ```
->>> sum_multiples(10, [3,5])
+>>> sum_of_multiples = sum_multiples(10, [3,5])
+>>> print(sum_of_multiples)
 23
 ```
 
