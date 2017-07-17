@@ -85,7 +85,8 @@ Write a function called `square_map` that takes in a list of numbers (integers o
 Sample input/output:
 ```
 >>> numbers = [1,2,3,5]
->>> square_map(numbers)
+>>> squared_numbers = square_map(numbers)
+>>> print(squared_numbers)
 [1, 4, 9, 25]
 ```
 
