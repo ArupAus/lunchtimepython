@@ -152,7 +152,7 @@ items = [
 
 Build a function called `fill_backpack` that takes in the list of items as a single argument and returns the backpack dictionary. We have scaffolded the function for you below.
 
-**NOTE:** This is not an optimisation problem! Fill the backpack one item at a time from the lightest item to the heaviest item, stopping just before the backpack exceeds 6kg in weight. Make sure you **round** the backpack weight to 3 decimal places.
+**READ CAREFULLY!** This is not an optimisation problem, don't over think it. Fill the backpack one item at a time in the order given by the `items` argument (i.e. in the order shown above) and stop inserting items just before the backpack exceeds 6kg in weight. Make sure you **round** the backpack weight to 3 decimal places.
 
 ```py
 def fill_backpack(items):
@@ -161,7 +161,7 @@ def fill_backpack(items):
 		"items": [],
 		"weight": 0}
 	
-	# loop through the items from lightest to heaviest
+	# loop through the items in the order given
 		# add item to backpack if backpack weight will not exceed 6kg
 	
 	return backpack
