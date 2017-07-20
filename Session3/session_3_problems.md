@@ -121,9 +121,10 @@ def my_append(a_list, element):
 
 Instead of going to work tomorrow you decide to go on an adventure. You have a number of items that you would like to take. However, you can only carry 6kg. Your job is to pack you bag with as many items as you can while ensuring that the weight of the backpack does not exceed 6kg.
 
-It is best to represent the backpack as a dictionary:
+We will use a dictionary to represent the backpack:
 
 ```py
+# This is an example backpack
 backpack = {
 	items:	["toothbrush", "sandwhich", "bon soy", "book on python"]
 	weight:	2.750}
@@ -149,9 +150,19 @@ items = [
 ]
 ```
 
-Build a function called `fill_backpack` that takes in the list of items as a single argument and returns the backpack dictionary.
+Build a function called `fill_backpack` that takes in the list of items as a single argument and returns the backpack dictionary. We have scaffolded the function for you below.
+
+**NOTE:** This is not an optimisation problem! Fill the backpack one item at a time from the lightest item to the heaviest item, stopping just before the backpack exceeds 6kg in weight. Make sure you **round** the backpack weight to 3 decimal places.
 
 ```py
 def fill_backpack(items):
+	# Initialise backpack
+	backpack = {
+		items:	[]
+		weight:	0}
+	
+	# loop through the items from lightest to heaviest
+		# add item to backpack if backpack weight will not exceed 6kg
+	
 	return backpack
 ```
