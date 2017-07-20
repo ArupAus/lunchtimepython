@@ -126,7 +126,7 @@ We will use a dictionary to represent the backpack:
 ```py
 # This is an example backpack
 backpack = {
-	"items": ["toothbrush", "sandwhich", "bon soy", "book on python"]
+	"items": ["toothbrush", "sandwhich", "bon soy", "book on python"],
 	"weight": 2.750}
 ```
 
@@ -158,7 +158,7 @@ Build a function called `fill_backpack` that takes in the list of items as a sin
 def fill_backpack(items):
 	# Initialise backpack
 	backpack = {
-		"items": []
+		"items": [],
 		"weight": 0}
 	
 	# loop through the items from lightest to heaviest
