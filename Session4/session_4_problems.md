@@ -90,6 +90,8 @@ __* leave the u in front of the keys in the dictionary you return.__
 
 In the event of a tie for total number of words in a line return the line with the longest string in the line. Line numbers start at 0 for this problem.
 
+If 2 lines are exactly the same return the last occurence as your answer.
+
 ```py
 def longest_line_string(file_path, split_char):
     with open(file_path, 'r') as input_file:
