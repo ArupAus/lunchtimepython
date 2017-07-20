@@ -74,6 +74,6 @@
 	    {"name": "flint", "weight": 1.075},
 	    {"name": "magnifying glass", "weight": 0.450}
 	]],
-        "answers" : [[{"items": ["tooth brush", "sandwhich", "tissues", "iPod", "magnifying glass", "first aid kit", "sling shot", "bon soy", "flint"], "weight": 4.625}]]
+        "answers" : [[{"items": ["tooth brush", "sandwhich", "iPod", "tomahawk", "bon soy", "sling shot", "book on python", "tissues"], "weight": 5.950}]]
     }
 ]
