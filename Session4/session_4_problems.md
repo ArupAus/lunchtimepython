@@ -121,11 +121,11 @@ Below is some python code that you can copy and paste into your script to read t
 ```py
 import csv
 with open("debts.csv", 'rU') as csvfile:
-  csvData = csv.DictReader(csvfile)
-  for row in csvData:
-    job_number = row['Job Number']
-    debt = row['Debt']
-    print(job_number, round(debt, 2))
+    csvData = csv.DictReader(csvfile)
+    for row in csvData:
+        job_number = int(row['Job Number'])
+        debt = float(row['Debt']
+        print(job_number, round(debt, 2))
 ```
 ### biggest_debt
 
