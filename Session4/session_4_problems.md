@@ -161,7 +161,7 @@ Based on the example above write a function that returns a list of dicts `{u'job
 ```
 
 ```py
-def sorted_debts(file_path):
+def sorted_debt(file_path):
     # your code here
     # do not round your debts in this exercise!
     debts = []
