@@ -46,7 +46,7 @@ How far do you have to travel to get to work? Write a function that, given how m
 
 - if the user travels greater than 5km to work, print 'You should take the train.'
 - if the user travels greater than 2km to work, print 'You should cycle.'
-- if the user travels 2km or less to work, print 'Stop being lazy and walk!'
+- if the user travels 2km or less to work, print 'Why not enjoy the outdoors and walk?'
 
 __Take a look at the cheat sheet for session 1 for clues on how to use conditional statements__
 
@@ -56,7 +56,7 @@ Here are some example inputs and their expected outputs:
 |-----|------|
 |6|'You should take the train.'|
 |4|'You should cycle.'|
-|2|'Stop being lazy and walk!'|
+|2|'Why not enjoy the outdoors and walk?'|
 
 Submit your answer to the marker bot using a function as shown below. __Do not change the name of the function - suggest_travel.__
 

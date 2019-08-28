@@ -6,27 +6,27 @@ Follow this guide to get setup. It is not a difficult process but follow the ins
 
 ## Step 1: Get set up with Slack
 
-Head on over and install [Slack](https://slack.com/get).
+Head on over and install Slack from the [Microsoft Store](https://www.microsoft.com/en-au/p/slack/9wzdncrdk3wp), or from [Slack](https://slack.com/get). 
 
 Once Slack is installed, you'll be prompted to answer a few questions:
 
 1. You'll be asked to enter your team's Slack URL. Type `arupconsulting` into the text box and select `Continue`.
 
-![](https://raw.githubusercontent.com/ArupAus/lunchtimepython/2017/Session0/Resources/SlackInstallImages/Step1.png)
+![](https://raw.githubusercontent.com/ArupAus/lunchtimepython/2019/Session0/Resources/SlackInstallImages/Step1.png)
 
 2. You'll be asked to enter your Arup email. Type your Arup email into the text box and select `Continue`.
 
-![](https://raw.githubusercontent.com/ArupAus/lunchtimepython/2017/Session0/Resources/SlackInstallImages/Step2.png)
+![](https://raw.githubusercontent.com/ArupAus/lunchtimepython/2019/Session0/Resources/SlackInstallImages/Step2.png)
 
 3. You should have received a confirmation email - click the link in the email to continue. You'll need to select the team (Click on the `Arup` team with a picture of Ove Arup). You'll be asked to enter a few details about yourself, and pick a username. Enter in your details and continue on to the next step.
 
 4. On the left you will see a purple navigation pane. Click on `Channels`.
 
-![](https://raw.githubusercontent.com/ArupAus/lunchtimepython/2017/Session0/Resources/SlackInstallImages/Step3.png)
+![](https://raw.githubusercontent.com/ArupAus/lunchtimepython/2019/Session0/Resources/SlackInstallImages/Step3.png)
 
-5. Into the search box type `python` and click on the channel `# python`. Make sure you go down to the bottom of the screen and click `Join`.
+5. Into the search box type `python` and click on the channel `# lunchtimepython`. Make sure you go down to the bottom of the screen and click `Join`.
 
-![](https://raw.githubusercontent.com/ArupAus/lunchtimepython/2017/Session0/Resources/SlackInstallImages/Step4.png)
+![](https://raw.githubusercontent.com/ArupAus/lunchtimepython/2019/Session0/Resources/SlackInstallImages/Step4.png)
 
 6. You're good to go! This will be your first port of call for anything related to the course materials.
 
@@ -36,55 +36,30 @@ A great teacher, Al Sweigart, created an open source beginners guide to python p
 
 Please watch this [short video](https://youtu.be/1F_OgqRuSdI) to get started. Ignore the download instructions, we will get to that.
 
-## Step 3: Proxy Settings
+## Step 3: Install Python
 
-*You can skip this step if it confusing. Just raise your hand in the first session and one of the tutors will help.*
+You may have heard it said that python is a programming language. So why do we need to install anything? We need to install the 'interpreter' that understands our python code and tells the computer what to do. That is the first step.
 
-Arup IT have set up a proxy to manage (and secure) internet traffic. We will need to add the proxy settings to your system variables in order to use Visual Studio Code and Python.
+Arup's DTG have added python to ArupApps for you in two flavours: the vanilla python installer for Windows, and the Anaconda 3 python distribution. The recommended approach for those new to python is to request Anaconda 3, which comes pre-packaged with a large number of commonly used libraries, including Arup's `gsapy`, Jupyter notebooks, and many more.
 
-Here is a [script](https://github.com/ArupAus/lunchtimepython/tree/2017/Session0/Resources),  `set_proxy.cmd` will set the proxy for you. Download it and save the file to your desktop. Double click the file to run the script. If you have admin rights on you computer it should add the proxy settings to your system variables.
+After the software has installed, go to your start menu and look for `IDLE (Python 3.X 64-bit)` if you installed vanilla python, or `Anaconda Prompt` if you installed Anaconda 3. The IDLE window will look like this:
 
-**NOTE:** *Setting this proxy will cause all sort of problems when trying to work from home. You will have to work on the vpn or unset the proxy settings if you want to work from home.*
-
-## Step 4: Install Python
-
-You may have heard us say python is a programming language. So why do we need to install anything? We need to install the 'interpreter' that understands our python code and tells the computer what to do. That is the first step.
-
-We have downloaded python from the python website for you and placed it on the Arup network drive. This way we can minimise our number of downloads from Rackspace - the generous company that hosts python for everyone... for free!
-
-1. Copy the `python-3.6.1-amd64.exe` file from the Arup Programs folder (P:\Program Files\Python) to your desktop.
-2. Double click the file.
-3. Select `Run` if a security warning appears.
-4. **IMPORTANT:** Tick the box `Add Python 3.6 to PATH`.
-5. Select `Install Now`.
-
-![](https://raw.githubusercontent.com/ArupAus/lunchtimepython/2017/Session0/Resources/PythonInstallImages/Step1.PNG)
-
-5. If everything goes well a success message will appear. Select `Close`.
-
-![](https://raw.githubusercontent.com/ArupAus/lunchtimepython/2017/Session0/Resources/PythonInstallImages/Step2.PNG)
-
-6. Go to your start menu and look for `IDLE (Python 3.6 64-bit)`. Once selected the python command prompt should appear.
-
-![](https://raw.githubusercontent.com/ArupAus/lunchtimepython/2017/Session0/Resources/PythonInstallImages/Step3.PNG)
+![](https://raw.githubusercontent.com/ArupAus/lunchtimepython/2019/Session0/Resources/PythonInstallImages/Step3.PNG)
 
 Please get in touch if you get stuck.
 
-## Step 5: Install Visual Studio Code
+## Step 4: Install Visual Studio Code (NOT Visual Studio)
 
-In the videos you have been watching from Automate the Boring Stuff, Al uses a text editor called IDLE that comes standard with python. You can use this if you want. However, we suggests using a more advanced editor called Visual Studio Code (we use it on a daily basis). Follow these instructions to install it on your computer.
+In the videos you have been watching from Automate the Boring Stuff, Al uses a text editor called IDLE that comes standard with python. You can use this if you want. However, we suggest using a more advanced editor called Visual Studio Code (we use it on a daily basis). You can request it from [ArupApps](http://gloarupapps01/Shopping/requestItem/detail?id=1165).
 
-1. Copy the `VSCodeSetup-1.11.2.exe` file from the Arup Programs folder (P:\Program Files\Visual Studio Code) to your desktop.
-2. Double click the file and follow the instructions in this [video](https://youtu.be/8tkuu0Rugg4?t=1m34s).
-3. Install python extension for Visual Studio Code. Instructions can be found [here](https://marketplace.visualstudio.com/items?itemName=donjayamanne.python). (skip this step if you have not set up the proxy in Step 3.)
+Once it has installed, open the program and install the python extension. This is a language extension for the editor to help you develop code, navigate your python versions, support your git workflows, and generally make your life easier. More details can be found [here](https://marketplace.visualstudio.com/items?itemName=ms-python.python). The [Extension Marketplace](https://code.visualstudio.com/docs/editor/extension-gallery) has instructions for installing extensions in VS Code.
 
-## Step 6: Your First Problem Set
+## Step 5: Your First Problem Set
 
-You are now set up. Lets' take python for a spin.
+You are now set up. Let's take python for a spin.
 
-In each session we a problem set. As part of this pre work, watch the [next video](https://youtu.be/7qHMXu99d88) from automate the boring stuff and try to solve the problems in **Session 0**.
+In each session we provide a problem set. As part of your pre work, watch the [next video](https://youtu.be/7qHMXu99d88) from automate the boring stuff and then try to solve the problems in **Session 0**.
 
 Use slack to ask questions if you get stuck.
 
 See you in the first session!
- 
