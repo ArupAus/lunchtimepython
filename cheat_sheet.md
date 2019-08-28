@@ -31,13 +31,13 @@ float('3.2') # 3.2
 
 __Order of Operation__
 ```py
-(3+2)*5 # 25
+(3 + 2) * 5 # 25
 # remember BOMDAS?
 # Brackets Over Multiplication, Division, Addition and Subtraction
 ```
 __Rounding Numbers__
 ```py
-round(3.4564,2) # will round the number to 2 decimal places
+round(3.4564, 2) # will round the number to 2 decimal places
 ```
 ## Session 1: Basics Part A
 
@@ -77,7 +77,7 @@ __While loops__
 i = 0 
 while i < 10:
 	print(i)
-	i = i+1  # alternatively short hand is i += 1
+	i = i + 1  # alternatively short hand is i += 1
 
 ```
 
@@ -113,7 +113,7 @@ __Defining a function__
 
 ```py
 def add(a, b):
-	return a+b
+	return a + b
 ```
 
 __Calling a function__
@@ -128,7 +128,7 @@ c = add(4, 5)
 __Lists__
 ```py
 # python list - a variable to store stuff
-names = ["Jess","Tom","Laura","Will"]
+names = ["Jess", "Tom", "Laura", "Will"]
 
 # list splicing
 names[0] # "Jess"
@@ -142,7 +142,7 @@ len(names) # 4
 # adding to list
 names.append("Jason") # add "Jason" to end
 names.insert(2, "John") # insert "John" at index 2
-names.extend(["Alex","Faye","Mia"]) # append "Alex", "Faye" and "Mia" to the list
+names.extend(["Alex", "Faye", "Mia"]) # append "Alex", "Faye" and "Mia" to the list
 # remove from the list
 names.pop() # removes "Mia" and returns
 names.remove("Tom") # removes first "Tom" found
@@ -173,7 +173,7 @@ person.keys() # ["name", "age", "height", "graduate"]
 person.items() # [("name", "Alex"), ("age", 27), ("height", 158), ("graduate", True)]
 
 for k, v in person.items():
-	print("Key: "+ str(k)+ "\tValue: "+ str(v)
+	print("Key: " + str(k) + "\tValue: " + str(v)
 ```
 
 ## Session 4: Reading/Writing Files
@@ -183,18 +183,18 @@ Navigation of directories in python can be done using the following commands
 ```py
 import os
 
-# working director
+# working directory
 os.getcwd() # will return a path to your current working directory
 
 # check if file exists
 os.path.exists(... your path)
 
-#Joining Paths
+# Joining Paths
 path = '.\\Desktop\\'
 file = 'example.txt'
 full_path = os.path.join(path, file)
 
-#changing directory
+# changing directory
 os.chdir()
 
 ```
@@ -205,7 +205,7 @@ split_string = 'hello i am a string'.split() # returns a list split by whitespac
 split_string # ['hello', 'i', 'am', 'a', 'string']
 
 csv_string = '1,2,456,789,1566'.split(',') # returns a list split by ,
-csv_string # ['1','2','456','789','1566'] note that these are still strings not ints
+csv_string # ['1', '2' ,'456', '789', '1566'] note that these are still strings not ints
 
 # you can use map and list to convert the list
 csv_ints = list(map(int,'1,2,3,4,5'.split(','))) # [1,2,456,789,1566]
@@ -238,7 +238,7 @@ f.close()
 
 __Structuring your code__
 
-Once you start making bigger programs you will need to start thinking a bit about breaking your program into separate .py file and grouping them into folders. This will make it easier for you and other to understand your program. [The Hitchhiker's Guide to Python](http://python-guide-pt-br.readthedocs.io/en/latest/writing/structure/#structure-of-the-repository) has a useful guide to structuring you program. A little bit of planning at the beginning can make your life a lot easier down the track.
+Once you start making bigger programs you will need to start thinking a bit about breaking your program into separate .py file and grouping them into folders. This will make it easier for you and others to understand your program. [The Hitchhiker's Guide to Python](http://python-guide-pt-br.readthedocs.io/en/latest/writing/structure/#structure-of-the-repository) has a useful guide to structuring your program. A little bit of planning at the beginning can make your life a lot easier down the track.
 
 A typical folder structure for a python project looks like this:
 
@@ -263,5 +263,5 @@ myprojectname /
 		c_extensions_or_libraries.c (probably won't need this)
 	README.md
 	setup.py (probably won't need this)
-	requirements.txt (python package manager creates this)
+	requirements.txt (the python package manager can create this, e.g., pip freeze)
 ```

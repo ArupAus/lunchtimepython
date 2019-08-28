@@ -2,7 +2,7 @@
 
 Welcome to the Arup Lunchtime Python Programming course homepage. This repository contains everything you need for the course. Here you will find session notes, links to external resourse, problem sets and solutions.
 
-You can access enrollments for the course on [moodle](https://moodle.arup.com/course/view.php?id=1633).
+You can access enrollments for the course on [moodle](https://moodle.arup.com/course/view.php?id=2870).
 
 ## Useful Resources
 
@@ -11,7 +11,7 @@ Most of the material can be found on [Automate the Boring Stuff](https://automat
 If you are lost, look at these resources (probably in this order):
 1. Our Cheat Sheet (see navbar) 
 2. Search [Stack Overflow](https://stackoverflow.com/) (you will come to love this site)
-3. Ask your fellow Arup course members on the python Slack Channel. Use the downloaded application on your computer or click [Here](https://arupconsulting.slack.com/messages/C5H4Q9QRJ/)
+3. Ask your fellow Arup course members on the python Slack Channel. Use the downloaded application on your computer or click [Here](https://arupconsulting.slack.com/messages/CMSH18269)
 4. A more comprehensive [Cheat Sheet](https://github.com/mattharrison/Tiny-Python-3.6-Notebook/blob/master/python.rst)
 5. The [Python Docs](https://docs.python.org/3/index.html)
 
@@ -19,15 +19,15 @@ If you are lost, look at these resources (probably in this order):
 
 This course has been broken up into a series of sessions that introduce the concepts involved in computer programming using the python programming language. Each sesson includes a mini lecture and a problem set. It is intended that you attend a session every week.
 
-The course is intended to be worked through in a group. Please join a group and create a [slack](www.slack.com/au‎) channel for your group (invite your tutor). Sessions 5, 7 & 8 are dedicated for group projects.
+The course is intended to be worked through in a group. Please join a group and create a [slack](www.slack.com/au‎) channel for your group (invite your tutor). Sessions 5 & 6 are dedicated for group projects.
 
 ### Course Outline
 
 Session 0: Getting Set up (Pre-Work)
 
 - Install Python 
-- Setup a Interactive Development Environment (IDE)
-- The command prompt
+- The command prompt / shell / terminal / REPL
+- Set up an Interactive Development Environment (IDE)
 
 Session 1: Basics Part A
 
@@ -47,7 +47,7 @@ Session 3: Python Data Types
 
 Session 4: Working with Files
 
-- Read, edit and write text and csv files
+- Read, edit, and write text and csv files
 
 Session 5: Group Project
 
@@ -61,11 +61,6 @@ Session 6: Good Programming Practices
 - Software development processes
 - Version control and developing in teams
 
-Session 7 & 8: Group Project
-
-- Continue working on your group project
-- No course content
-- Class will still run to give you access to tutor for help
 
 ## What you can expect to gain from this course
 
