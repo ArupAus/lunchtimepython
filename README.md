@@ -4,6 +4,6 @@ There is a problem set for each session and a hacker-edition problem set for tho
 
 If you find these problem sets addictive and would like more, try these (in the order we recommend):
 
-1. [Hackerrank] (https://www.hackerrank.com/)
-2. [Codewars] (https://www.codewars.com)
-3. [Exercism] (http://exercism.io/)
+1. [Hackerrank](https://www.hackerrank.com/)
+2. [Codewars](https://www.codewars.com)
+3. [Exercism](http://exercism.io/)
